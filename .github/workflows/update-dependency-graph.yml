@@ -1,0 +1,45 @@
+name: Update Dependency Graph
+
+on:
+  schedule:
+    # Run every 6 hours to keep the upstream -> downstream map fresh
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Allows manual trigger from the GitHub Actions tab
+
+jobs:
+  update-map:
+    runs-on: ubuntu-latest
+    
+    # Required permission to allow the bot to push commits back to the repo
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
+      - name: Run Crawler Script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: bun run scripts/update-graph.ts
+
+      - name: Commit and Push Dependency Map
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git add dependency-map.json
+          
+          # Check if there are actual changes before committing
+          if git diff --staged --quiet; then
+            echo "No changes detected in dependency map."
+          else
+            git commit -m "chore: auto-update dependency map [skip ci]"
+            git push
+            echo "Successfully pushed updated dependency-map.json!"
+          fi
