@@ -1,0 +1,61 @@
+name: Handle Upstream Release
+
+on:
+  workflow_call:
+    inputs:
+      package_name:
+        description: 'The published package name (e.g., @tscircuit/core)'
+        required: false
+        type: string
+        default: '@tscircuit/core'
+      new_version:
+        description: 'The new version released (e.g., 2.1.0)'
+        required: false
+        type: string
+        default: '0.0.0'
+      caller_repo:
+        description: 'Explicit name of the calling repository'
+        required: false
+        type: string
+        default: 'unknown-caller'
+          
+  workflow_dispatch:
+    inputs:
+      package_name:
+        description: 'The published package name (e.g., @tscircuit/core)'
+        required: false
+        type: string
+        default: '@tscircuit/core'
+      new_version:
+        description: 'The new version released (e.g., 2.1.0)'
+        required: false
+        type: string
+        default: '0.0.0'
+      caller_repo:
+        description: 'Explicit name of the calling repository'
+        required: false
+        type: string
+        default: 'manual-dispatch-ui'
+
+jobs:
+  process-release:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
+      - name: Run Release Handler Script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # GitHub Actions unifies both workflow_call and workflow_dispatch inputs under the 'inputs' context
+          PACKAGE_NAME: ${{ inputs.package_name }}
+          NEW_VERSION: ${{ inputs.new_version }}
+          CALLER_REPO: ${{ inputs.caller_repo }}
+          TRIGGERED_BY: ${{ github.actor }}
+        run: bun run scripts/handle-release.ts
