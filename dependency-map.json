@@ -1,0 +1,699 @@
+{
+  "@tscircuit/alphabet": [
+    "pcb-viewer",
+    "tscircuit",
+    "easyeda-converter",
+    "3d-viewer",
+    "core",
+    "jscad-electronics",
+    "circuit-to-svg",
+    "circuit-json-to-gerber",
+    "graphics-debug",
+    "eval",
+    "circuit-json-to-gltf",
+    "poppygl",
+    "circuit-to-canvas",
+    "circuit-json-to-geometry",
+    "pycircuits",
+    "circuit-json-schematic-placement-analysis",
+    "via-drill-guide-generator",
+    "fabrication-operator-ui"
+  ],
+  "@tscircuit/math-utils": [
+    "pcb-viewer",
+    "tscircuit",
+    "footprinter",
+    "easyeda-converter",
+    "core",
+    "checks",
+    "circuit-json-to-connectivity-map",
+    "dsn-converter",
+    "bun-ffi-benchmarking",
+    "tscircuit.com",
+    "eval",
+    "cli",
+    "circuit-json-to-readable-netlist",
+    "import",
+    "docs",
+    "tscircuit-autorouter",
+    "calculate-packing",
+    "matchpack",
+    "schematic-trace-solver",
+    "copper-pour-solver",
+    "kicad-to-circuit-json",
+    "circuit-to-canvas",
+    "rectdiff",
+    "hypergraph",
+    "fastforce",
+    "curvy-trace-solver",
+    "straight-line-solver",
+    "autorouting-dataset-01",
+    "docs.basefold.com",
+    "pycircuits",
+    "circuit-json-schematic-placement-analysis",
+    "high-density-repair03",
+    "breakout-point-solver",
+    "dataset-srj18",
+    "dataset-srj22",
+    "fast-footprint-compare",
+    "check-shorts",
+    "layerweaver",
+    "length-matching-solver",
+    "circuit-json-to-footprinter",
+    "dataset-srj24"
+  ],
+  "@tscircuit/circuit-json-util": [
+    "pcb-viewer",
+    "tscircuit",
+    "footprinter",
+    "kicad-mod-cache",
+    "easyeda-converter",
+    "3d-viewer",
+    "core",
+    "checks",
+    "eval",
+    "circuit-json-to-spice",
+    "circuit-json-to-readable-netlist",
+    "circuitjson.com",
+    "tscircuit-autorouter",
+    "circuit-json-to-simple-3d",
+    "circuit-json-to-bpc",
+    "calculate-packing",
+    "matchpack",
+    "circuit-json-to-gltf",
+    "circuit-json-to-step",
+    "circuit-preview",
+    "copper-pour-solver",
+    "test-github-automerge",
+    "kicad-to-circuit-json",
+    "circuit-to-canvas",
+    "configure-interconnect",
+    "circuit-json-to-lbrn",
+    "autorouting-dataset-01",
+    "pycircuits",
+    "circuit-json-schematic-placement-analysis",
+    "circuit-json-to-simple-route-json",
+    "high-density-repair03",
+    "effort-benchmark",
+    "via-drill-guide-generator",
+    "fabrication-operator-ui",
+    "dataset-srj18",
+    "fake-ul-kicad-proxy",
+    "dataset-srj22",
+    "check-shorts",
+    "dataset-srj24"
+  ],
+  "@tscircuit/eagle-xml-converter": [
+    "pcb-viewer"
+  ],
+  "@tscircuit/builder": [
+    "compiler",
+    "schematic-layout-testing",
+    "text-to-footprint",
+    "motor-controller"
+  ],
+  "@tscircuit/react-fiber": [
+    "compiler",
+    "battery",
+    "a555timer",
+    "schematic-layout-testing"
+  ],
+  "@tscircuit/capacity-autorouter": [
+    "tscircuit",
+    "core",
+    "eval",
+    "rectdiff",
+    "autorouting-dataset-01",
+    "high-density-dataset-z04",
+    "circuit-json-routing-analysis",
+    "tiny-hypergraph",
+    "dataset-z09",
+    "pycircuits",
+    "circuit-json-schematic-placement-analysis",
+    "dataset-srj12-bus-routing",
+    "circuit-json-to-simple-route-json",
+    "pcb-poly-hyper-graph",
+    "effort-benchmark",
+    "autorouting-phase-demo",
+    "dataset-srj16-bga-breakouts",
+    "dataset-srj18",
+    "hypergraph-topology-evaluator",
+    "dataset-srj19",
+    "dataset-srj20",
+    "dataset-srj22",
+    "45-degree-trace-srj23",
+    "dataset-srj24",
+    "length-matching-post-process",
+    "fanout-solver"
+  ],
+  "@tscircuit/checks": [
+    "tscircuit",
+    "core",
+    "eval",
+    "tscircuit-autorouter",
+    "autorouting-dataset-01",
+    "pycircuits",
+    "circuit-json-schematic-placement-analysis",
+    "high-density-repair03",
+    "effort-benchmark",
+    "dataset-srj18",
+    "dataset-srj22",
+    "dataset-srj24",
+    "rp2040-motor-controller"
+  ],
+  "@tscircuit/cli": [
+    "tscircuit",
+    "a5v-buck-regulator",
+    "deps.tscircuit.com"
+  ],
+  "@tscircuit/copper-pour-solver": [
+    "tscircuit",
+    "3d-viewer",
+    "core",
+    "eval",
+    "kicad-to-circuit-json",
+    "pycircuits",
+    "circuit-json-schematic-placement-analysis",
+    "dataset-srj18",
+    "dataset-srj24"
+  ],
+  "@tscircuit/core": [
+    "tscircuit",
+    "3d-viewer",
+    "dsn-converter",
+    "prompt-benchmarks",
+    "eval",
+    "assembly-viewer",
+    "circuit-json-to-readable-netlist",
+    "import",
+    "autorouting-cache-engine",
+    "tscircuit-autorouter",
+    "gyromug",
+    "circuit-preview",
+    "copper-pour-solver",
+    "kicad-to-circuit-json",
+    "autorouting-dataset-01",
+    "pycircuits",
+    "circuit-json-schematic-placement-analysis",
+    "autorouting-phase-demo",
+    "dataset-srj18",
+    "dataset-srj20",
+    "dataset-srj22",
+    "circuit-json-to-footprinter",
+    "datasheet-to-tscircuit",
+    "dataset-srj24",
+    "rp2040-motor-controller",
+    "power-trace-expander"
+  ],
+  "@tscircuit/create-fdm-enclosure": [
+    "tscircuit",
+    "core",
+    "eval"
+  ],
+  "@tscircuit/eval": [
+    "tscircuit",
+    "tscircuit.com",
+    "prompt-benchmarks",
+    "runframe",
+    "cli",
+    "browser-preview.tscircuit.com",
+    "tscircuit-prompts",
+    "pycircuits",
+    "autorouting-phase-demo",
+    "dataset-srj20",
+    "system-block-designer"
+  ],
+  "@tscircuit/fanout-solver": [
+    "tscircuit",
+    "core",
+    "eval"
+  ],
+  "@tscircuit/footprinter": [
+    "tscircuit",
+    "text-to-footprint",
+    "core",
+    "jscad-electronics",
+    "prompt-benchmarks",
+    "jlcsearch",
+    "eval",
+    "cli",
+    "docs",
+    "calculate-packing",
+    "common",
+    "autorouting-dataset-01",
+    "docs.basefold.com",
+    "pycircuits",
+    "circuit-json-schematic-placement-analysis",
+    "dataset-srj18",
+    "fast-footprint-compare",
+    "circuit-json-to-footprinter",
+    "dataset-srj24",
+    "rp2040-motor-controller",
+    "fanout-solver"
+  ],
+  "@tscircuit/image-utils": [
+    "tscircuit",
+    "core",
+    "graphics-debug",
+    "eval",
+    "cli",
+    "circuit-json-schematic-placement-analysis",
+    "dataset-srj18",
+    "check-shorts",
+    "dataset-srj24"
+  ],
+  "@tscircuit/infer-cable-insertion-point": [
+    "tscircuit",
+    "core",
+    "eval",
+    "pycircuits",
+    "circuit-json-schematic-placement-analysis",
+    "dataset-srj18",
+    "dataset-srj24"
+  ],
+  "@tscircuit/infgrid-ijump-astar": [
+    "tscircuit",
+    "core",
+    "bun-ffi-benchmarking",
+    "fake-freerouting",
+    "eval",
+    "autorouting-cache-engine",
+    "pycircuits",
+    "circuit-json-schematic-placement-analysis",
+    "dataset-srj18",
+    "dataset-srj24"
+  ],
+  "@tscircuit/internal-dynamic-import": [
+    "tscircuit",
+    "tscircuit.com",
+    "runframe",
+    "autorouting.com-landing",
+    "datasheet-to-tscircuit"
+  ],
+  "@tscircuit/krt-wasm": [
+    "tscircuit",
+    "core",
+    "eval",
+    "cli",
+    "tscircuit-autorouter",
+    "dataset-srj18",
+    "system-block-designer",
+    "dataset-srj24"
+  ],
+  "@tscircuit/matchpack": [
+    "tscircuit",
+    "core",
+    "eval",
+    "pycircuits",
+    "circuit-json-schematic-placement-analysis",
+    "dataset-srj18",
+    "dataset-srj24"
+  ],
+  "@tscircuit/miniflex": [
+    "tscircuit",
+    "circuit-json-util",
+    "core",
+    "eval",
+    "pycircuits",
+    "circuit-json-schematic-placement-analysis",
+    "dataset-srj18",
+    "dataset-srj24"
+  ],
+  "@tscircuit/ngspice-spice-engine": [
+    "tscircuit",
+    "core",
+    "eval",
+    "svg.tscircuit.com",
+    "pycircuits",
+    "circuit-json-schematic-placement-analysis",
+    "dataset-srj18",
+    "datasheet-to-tscircuit",
+    "dataset-srj24"
+  ],
+  "@tscircuit/props": [
+    "tscircuit",
+    "easyeda-converter",
+    "core",
+    "tscircuit.com",
+    "eval",
+    "cli",
+    "assembly-viewer",
+    "circuit-json-to-readable-netlist",
+    "parts-engine",
+    "ngspice-spice-engine",
+    "autorouting-dataset-01",
+    "pycircuits",
+    "circuit-json-schematic-placement-analysis",
+    "autorouting-phase-demo",
+    "dataset-srj18",
+    "monaco-code-editor",
+    "datasheet-to-tscircuit",
+    "dataset-srj24"
+  ],
+  "@tscircuit/runframe": [
+    "tscircuit",
+    "tscircuit.com",
+    "cli",
+    "schematic-corpus-generator",
+    "circuit-preview",
+    "pycircuits",
+    "arduino-uno-with-re-routing-demo",
+    "monaco-code-editor",
+    "datasheet-to-tscircuit"
+  ],
+  "@tscircuit/schematic-match-adapt": [
+    "tscircuit",
+    "core",
+    "eval",
+    "cli",
+    "pycircuits",
+    "circuit-json-schematic-placement-analysis",
+    "dataset-srj18",
+    "dataset-srj24"
+  ],
+  "@tscircuit/schematic-trace-solver": [
+    "tscircuit",
+    "core",
+    "eval",
+    "pycircuits",
+    "circuit-json-schematic-placement-analysis",
+    "dataset-srj18",
+    "dataset-srj24"
+  ],
+  "@tscircuit/simple-3d-svg": [
+    "tscircuit",
+    "eval",
+    "circuit-json-to-simple-3d",
+    "pycircuits"
+  ],
+  "@tscircuit/solver-utils": [
+    "tscircuit",
+    "3d-viewer",
+    "core",
+    "eval",
+    "runframe",
+    "cli",
+    "tscircuit-autorouter",
+    "calculate-cell-boundaries",
+    "calculate-packing",
+    "copper-pour-solver",
+    "rectdiff",
+    "dimension-placement-solver",
+    "hypergraph",
+    "fastforce",
+    "curvy-trace-solver",
+    "straight-line-solver",
+    "autorouting-dataset-01",
+    "find-convex-regions",
+    "high-density-a01",
+    "tiny-hypergraph",
+    "high-density-repair01",
+    "high-density-repair02",
+    "dataset-z09",
+    "bus-router",
+    "pycircuits",
+    "circuit-json-schematic-placement-analysis",
+    "high-density-repair03",
+    "pcb-poly-hyper-graph",
+    "auto-router-refactor",
+    "breakout-point-solver",
+    "dataset-srj18",
+    "hypergraph-topology-evaluator",
+    "dataset-srj22",
+    "bga-topology-generator",
+    "system-block-designer",
+    "layerweaver",
+    "length-matching-solver",
+    "dataset-srj24",
+    "create-fdm-enclosure",
+    "power-trace-expander",
+    "high-density-b01",
+    "fanout-solver",
+    "point-breakout-solver",
+    "prefab-boundary-router"
+  ],
+  "@tscircuit/soup-util": [
+    "tscircuit",
+    "schematic-autolayout",
+    "footprinter",
+    "motor-controller",
+    "core",
+    "dsn-converter",
+    "bun-ffi-benchmarking",
+    "circuit-json-to-pnp-csv",
+    "fake-freerouting",
+    "eval",
+    "circuit-json-to-tscircuit",
+    "autorouting-cache-engine",
+    "pycircuits",
+    "circuit-json-schematic-placement-analysis",
+    "fabrication-operator-ui",
+    "dataset-srj18",
+    "dataset-srj24"
+  ],
+  "@tscircuit/footprints": [
+    "a555timer",
+    "autorouting-dataset-01",
+    "dataset-srj22"
+  ],
+  "@tscircuit/schematic-viewer": [
+    "schematic-layout-testing",
+    "schematic-autolayout",
+    "tscircuit.com",
+    "runframe",
+    "circuitjson.com",
+    "bpc-graph",
+    "schematic-corpus-generator",
+    "matchpack",
+    "circuit-preview",
+    "arduino-uno-with-re-routing-demo",
+    "monaco-code-editor",
+    "datasheet-to-tscircuit"
+  ],
+  "@tscircuit/mm": [
+    "footprinter",
+    "easyeda-converter",
+    "specctra-dsn-json",
+    "tscircuit.com",
+    "eval",
+    "circuit-json-to-tscircuit",
+    "pycircuits",
+    "fabrication-operator-ui"
+  ],
+  "@tscircuit/log-soup": [
+    "footprinter",
+    "specctra-dsn-json",
+    "core",
+    "checks",
+    "eval",
+    "circuit-json-schematic-placement-analysis",
+    "dataset-srj18",
+    "dataset-srj24"
+  ],
+  "@tscircuit/pcb-viewer": [
+    "text-to-footprint",
+    "kicad-viewer",
+    "a5v-buck-regulator",
+    "tscircuit.com",
+    "dsn-viewer",
+    "runframe",
+    "circuitjson.com",
+    "circuit-preview",
+    "arduino-uno-with-re-routing-demo",
+    "dataset-srj18",
+    "monaco-code-editor",
+    "datasheet-to-tscircuit",
+    "dataset-srj24"
+  ],
+  "@tscircuit/soup": [
+    "specctra-dsn-json",
+    "circuit-to-png",
+    "bun-ffi-benchmarking",
+    "fake-freerouting"
+  ],
+  "@tscircuit/breakout-point-solver": [
+    "core",
+    "eval"
+  ],
+  "@tscircuit/common": [
+    "core",
+    "eval",
+    "svg.tscircuit.com",
+    "circuit-json-to-kicad",
+    "biscuit-boards",
+    "circuit-json-schematic-placement-analysis",
+    "dataset-srj18",
+    "dataset-srj24",
+    "rp2040-motor-controller"
+  ],
+  "@tscircuit/jlcpcb-manufacturing-specs": [
+    "core",
+    "checks",
+    "eval"
+  ],
+  "@tscircuit/plop": [
+    "circuit-to-png",
+    "pcbburn.com"
+  ],
+  "@tscircuit/3d-viewer": [
+    "tscircuit.com",
+    "runframe",
+    "circuitjson.com",
+    "circuit-preview",
+    "arduino-uno-with-re-routing-demo",
+    "monaco-code-editor",
+    "datasheet-to-tscircuit"
+  ],
+  "@tscircuit/assembly-viewer": [
+    "tscircuit.com",
+    "runframe",
+    "circuitjson.com",
+    "circuit-preview",
+    "arduino-uno-with-re-routing-demo",
+    "monaco-code-editor",
+    "datasheet-to-tscircuit"
+  ],
+  "@tscircuit/create-snippet-url": [
+    "tscircuit.com",
+    "runframe",
+    "circuitjson.com",
+    "svg.tscircuit.com",
+    "docs",
+    "browser-preview.tscircuit.com",
+    "circuit-preview",
+    "tscircuit-prompts",
+    "docs.basefold.com",
+    "arduino-uno-with-re-routing-demo",
+    "fabrication-operator-ui",
+    "monaco-code-editor",
+    "datasheet-to-tscircuit"
+  ],
+  "@tscircuit/fake-stripe": [
+    "tscircuit.com",
+    "order-dialog"
+  ],
+  "@tscircuit/layout": [
+    "tscircuit.com",
+    "eval"
+  ],
+  "@tscircuit/order-dialog": [
+    "tscircuit.com"
+  ],
+  "@tscircuit/prompt-benchmarks": [
+    "tscircuit.com",
+    "browser-preview.tscircuit.com"
+  ],
+  "@tscircuit/featured-snippets": [
+    "prompt-benchmarks"
+  ],
+  "@tscircuit/circuit-json-flex": [
+    "eval",
+    "pycircuits"
+  ],
+  "@tscircuit/import-snippet": [
+    "eval"
+  ],
+  "@tscircuit/manifold-2d": [
+    "eval",
+    "copper-pour-solver"
+  ],
+  "@tscircuit/parts-engine": [
+    "eval"
+  ],
+  "@tscircuit/schematic-autolayout": [
+    "eval"
+  ],
+  "@tscircuit/fake-snippets": [
+    "runframe",
+    "cli",
+    "api"
+  ],
+  "@tscircuit/file-server": [
+    "runframe",
+    "cli"
+  ],
+  "@tscircuit/check-shorts": [
+    "cli"
+  ],
+  "@tscircuit/circuit-json-placement-analysis": [
+    "cli"
+  ],
+  "@tscircuit/circuit-json-routing-analysis": [
+    "cli"
+  ],
+  "@tscircuit/circuit-json-schematic-placement-analysis": [
+    "cli"
+  ],
+  "@tscircuit/ti-parts-engine": [
+    "svg.tscircuit.com",
+    "test-ti-project"
+  ],
+  "@tscircuit/eecircuit-engine": [
+    "svg.tscircuit.com"
+  ],
+  "@tscircuit/autorouting-dataset-01": [
+    "tscircuit-autorouter",
+    "rectdiff",
+    "pcb-poly-hyper-graph",
+    "effort-benchmark",
+    "auto-router-refactor"
+  ],
+  "@tscircuit/curvy-trace-solver": [
+    "tscircuit-autorouter"
+  ],
+  "@tscircuit/dataset-srj05": [
+    "tscircuit-autorouter"
+  ],
+  "@tscircuit/dataset-srj24": [
+    "tscircuit-autorouter"
+  ],
+  "@tscircuit/fixed-via-hypergraph-solver": [
+    "tscircuit-autorouter"
+  ],
+  "@tscircuit/hypergraph": [
+    "tscircuit-autorouter",
+    "curvy-trace-solver",
+    "straight-line-solver",
+    "jumper-topology-generator",
+    "high-density-a01",
+    "fixed-via-hypergraph-solver",
+    "tiny-hypergraph",
+    "pcb-poly-hyper-graph",
+    "auto-router-refactor",
+    "hypergraph-topology-evaluator",
+    "high-density-b01"
+  ],
+  "@tscircuit/jumper-topology-generator": [
+    "tscircuit-autorouter",
+    "hypergraph"
+  ],
+  "@tscircuit/length-matching-solver": [
+    "tscircuit-autorouter"
+  ],
+  "@tscircuit/rectdiff": [
+    "tscircuit-autorouter",
+    "auto-router-refactor"
+  ],
+  "@tscircuit/high-density-a01": [
+    "tscircuit-autorouter",
+    "dataset-zero-obstacle-high-density-z01",
+    "dataset-z09"
+  ],
+  "@tscircuit/schematic-corpus": [
+    "bpc-graph"
+  ],
+  "@tscircuit/iframe": [
+    "schematic-corpus-generator"
+  ],
+  "@tscircuit/find-convex-regions": [
+    "jumper-topology-generator",
+    "fixed-via-hypergraph-solver",
+    "tiny-hypergraph"
+  ],
+  "@tscircuit/fake-ul-kicad-proxy": [
+    "ti-parts-engine"
+  ],
+  "@tscircuit/power-trace-expander": [
+    "rp2040-motor-controller"
+  ]
+}
