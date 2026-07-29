@@ -166,20 +166,8 @@
     "a5v-buck-regulator",
     "deps.tscircuit.com"
   ],
-  "@tscircuit/copper-pour-solver": [
-    "tscircuit",
-    "3d-viewer",
-    "core",
-    "eval",
-    "kicad-to-circuit-json",
-    "pycircuits",
-    "circuit-json-schematic-placement-analysis",
-    "dataset-srj18",
-    "dataset-srj24"
-  ],
   "@tscircuit/core": [
     "tscircuit",
-    "3d-viewer",
     "dsn-converter",
     "prompt-benchmarks",
     "eval",
@@ -527,7 +515,6 @@
     "rp2040-motor-controller"
   ],
   "@tscircuit/jlcpcb-manufacturing-specs": [
-    "core",
     "checks",
     "eval"
   ],
