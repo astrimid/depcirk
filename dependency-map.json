@@ -430,7 +430,8 @@
     "high-density-b01",
     "fanout-solver",
     "point-breakout-solver",
-    "prefab-boundary-router"
+    "prefab-boundary-router",
+    "crossbar-mapping-solver"
   ],
   "@tscircuit/soup-util": [
     "tscircuit",
