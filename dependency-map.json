@@ -596,7 +596,8 @@
   ],
   "@tscircuit/manifold-2d": [
     "eval",
-    "copper-pour-solver"
+    "copper-pour-solver",
+    "circuit-json-to-lbrn"
   ],
   "@tscircuit/parts-engine": [
     "eval"
