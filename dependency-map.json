@@ -17,7 +17,8 @@
     "pycircuits",
     "circuit-json-schematic-placement-analysis",
     "via-drill-guide-generator",
-    "fabrication-operator-ui"
+    "fabrication-operator-ui",
+    "altium-to-circuit-json"
   ],
   "@tscircuit/math-utils": [
     "pcb-viewer",
@@ -101,7 +102,8 @@
     "fake-ul-kicad-proxy",
     "dataset-srj22",
     "check-shorts",
-    "dataset-srj24"
+    "dataset-srj24",
+    "altium-to-circuit-json"
   ],
   "@tscircuit/eagle-xml-converter": [
     "pcb-viewer"
@@ -141,7 +143,7 @@
     "dataset-srj19",
     "dataset-srj20",
     "dataset-srj22",
-    "45-degree-trace-srj23",
+    "dataset-srj23-partially-routed-subcircuits",
     "dataset-srj24",
     "length-matching-post-process",
     "fanout-solver"
