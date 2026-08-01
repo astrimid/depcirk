@@ -18,6 +18,7 @@
     "circuit-json-schematic-placement-analysis",
     "via-drill-guide-generator",
     "fabrication-operator-ui",
+    "pads-to-circuit-json",
     "altium-to-circuit-json"
   ],
   "@tscircuit/math-utils": [
@@ -103,6 +104,7 @@
     "dataset-srj22",
     "check-shorts",
     "dataset-srj24",
+    "pads-to-circuit-json",
     "altium-to-circuit-json"
   ],
   "@tscircuit/eagle-xml-converter": [
@@ -146,7 +148,8 @@
     "dataset-srj23-partially-routed-subcircuits",
     "dataset-srj24",
     "length-matching-post-process",
-    "fanout-solver"
+    "fanout-solver",
+    "dataset-srj27-power-traces"
   ],
   "@tscircuit/checks": [
     "tscircuit",
@@ -205,7 +208,8 @@
     "datasheet-to-tscircuit",
     "dataset-srj24",
     "rp2040-motor-controller",
-    "power-trace-expander"
+    "power-trace-expander",
+    "dataset-srj27-power-traces"
   ],
   "@tscircuit/create-fdm-enclosure": [
     "tscircuit",
@@ -251,7 +255,8 @@
     "circuit-json-to-footprinter",
     "dataset-srj24",
     "rp2040-motor-controller",
-    "fanout-solver"
+    "fanout-solver",
+    "header-modules"
   ],
   "@tscircuit/image-utils": [
     "tscircuit",
@@ -350,7 +355,8 @@
     "dataset-srj18",
     "monaco-code-editor",
     "datasheet-to-tscircuit",
-    "dataset-srj24"
+    "dataset-srj24",
+    "header-modules"
   ],
   "@tscircuit/runframe": [
     "tscircuit",
@@ -433,7 +439,8 @@
     "fanout-solver",
     "point-breakout-solver",
     "prefab-boundary-router",
-    "crossbar-mapping-solver"
+    "crossbar-mapping-solver",
+    "dataset-srj27-power-traces"
   ],
   "@tscircuit/soup-util": [
     "tscircuit",
@@ -527,7 +534,8 @@
     "circuit-json-schematic-placement-analysis",
     "dataset-srj18",
     "dataset-srj24",
-    "rp2040-motor-controller"
+    "rp2040-motor-controller",
+    "rp2040-photo-diode-stick"
   ],
   "@tscircuit/jlcpcb-manufacturing-specs": [
     "core",
@@ -698,6 +706,7 @@
     "ti-parts-engine"
   ],
   "@tscircuit/power-trace-expander": [
-    "rp2040-motor-controller"
+    "rp2040-motor-controller",
+    "dataset-srj27-power-traces"
   ]
 }
