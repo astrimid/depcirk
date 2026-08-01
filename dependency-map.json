@@ -149,7 +149,8 @@
     "dataset-srj24",
     "length-matching-post-process",
     "fanout-solver",
-    "dataset-srj27-power-traces"
+    "dataset-srj27-power-traces",
+    "rp2040-photo-diode-stick"
   ],
   "@tscircuit/checks": [
     "tscircuit",
@@ -164,7 +165,8 @@
     "dataset-srj18",
     "dataset-srj22",
     "dataset-srj24",
-    "rp2040-motor-controller"
+    "rp2040-motor-controller",
+    "dataset-srj27-power-traces"
   ],
   "@tscircuit/cli": [
     "tscircuit",
@@ -607,7 +609,8 @@
   "@tscircuit/manifold-2d": [
     "eval",
     "copper-pour-solver",
-    "circuit-json-to-lbrn"
+    "circuit-json-to-lbrn",
+    "circuit-json-to-footprinter"
   ],
   "@tscircuit/parts-engine": [
     "eval"
