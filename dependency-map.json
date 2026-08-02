@@ -147,6 +147,7 @@
     "dataset-srj22",
     "dataset-srj23-partially-routed-subcircuits",
     "dataset-srj24",
+    "power-trace-expander",
     "length-matching-post-process",
     "fanout-solver",
     "dataset-srj27-power-traces",
