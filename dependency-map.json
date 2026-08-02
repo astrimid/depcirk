@@ -151,7 +151,8 @@
     "length-matching-post-process",
     "fanout-solver",
     "dataset-srj27-power-traces",
-    "rp2040-photo-diode-stick"
+    "rp2040-photo-diode-stick",
+    "bus-tracer"
   ],
   "@tscircuit/checks": [
     "tscircuit",
@@ -443,7 +444,8 @@
     "point-breakout-solver",
     "prefab-boundary-router",
     "crossbar-mapping-solver",
-    "dataset-srj27-power-traces"
+    "dataset-srj27-power-traces",
+    "bus-tracer"
   ],
   "@tscircuit/soup-util": [
     "tscircuit",
@@ -590,6 +592,9 @@
     "tscircuit.com",
     "eval"
   ],
+  "@tscircuit/monaco-code-editor": [
+    "tscircuit.com"
+  ],
   "@tscircuit/order-dialog": [
     "tscircuit.com"
   ],
@@ -661,6 +666,9 @@
     "tscircuit-autorouter"
   ],
   "@tscircuit/dataset-srj24": [
+    "tscircuit-autorouter"
+  ],
+  "@tscircuit/dataset-srj27-power-traces": [
     "tscircuit-autorouter"
   ],
   "@tscircuit/fixed-via-hypergraph-solver": [
