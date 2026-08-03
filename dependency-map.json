@@ -722,5 +722,8 @@
   ],
   "@tscircuit/fake-ul-kicad-proxy": [
     "ti-parts-engine"
+  ],
+  "@tscircuit/bus-tracer": [
+    "rk3326"
   ]
 }
