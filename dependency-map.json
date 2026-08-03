@@ -168,7 +168,8 @@
     "dataset-srj22",
     "dataset-srj24",
     "rp2040-motor-controller",
-    "dataset-srj27-power-traces"
+    "dataset-srj27-power-traces",
+    "bus-tracer"
   ],
   "@tscircuit/cli": [
     "tscircuit",
@@ -694,6 +695,11 @@
   "@tscircuit/length-matching-solver": [
     "tscircuit-autorouter"
   ],
+  "@tscircuit/power-trace-expander": [
+    "tscircuit-autorouter",
+    "rp2040-motor-controller",
+    "dataset-srj27-power-traces"
+  ],
   "@tscircuit/rectdiff": [
     "tscircuit-autorouter",
     "auto-router-refactor"
@@ -716,9 +722,5 @@
   ],
   "@tscircuit/fake-ul-kicad-proxy": [
     "ti-parts-engine"
-  ],
-  "@tscircuit/power-trace-expander": [
-    "rp2040-motor-controller",
-    "dataset-srj27-power-traces"
   ]
 }
