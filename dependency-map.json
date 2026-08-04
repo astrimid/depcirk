@@ -18,6 +18,7 @@
     "circuit-json-schematic-placement-analysis",
     "via-drill-guide-generator",
     "fabrication-operator-ui",
+    "check-shorts",
     "pads-to-circuit-json",
     "altium-to-circuit-json"
   ],
@@ -152,7 +153,8 @@
     "fanout-solver",
     "dataset-srj27-power-traces",
     "rp2040-photo-diode-stick",
-    "bus-tracer"
+    "bus-tracer",
+    "rp2040-355nm-photodiode"
   ],
   "@tscircuit/checks": [
     "tscircuit",
@@ -542,7 +544,8 @@
     "dataset-srj18",
     "dataset-srj24",
     "rp2040-motor-controller",
-    "rp2040-photo-diode-stick"
+    "rp2040-photo-diode-stick",
+    "rp2040-355nm-photodiode"
   ],
   "@tscircuit/jlcpcb-manufacturing-specs": [
     "core",
