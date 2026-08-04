@@ -348,6 +348,7 @@
     "core",
     "tscircuit.com",
     "eval",
+    "runframe",
     "cli",
     "assembly-viewer",
     "circuit-json-to-readable-netlist",
@@ -693,7 +694,8 @@
     "hypergraph"
   ],
   "@tscircuit/length-matching-solver": [
-    "tscircuit-autorouter"
+    "tscircuit-autorouter",
+    "bus-tracer"
   ],
   "@tscircuit/power-trace-expander": [
     "tscircuit-autorouter",
