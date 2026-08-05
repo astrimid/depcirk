@@ -364,7 +364,8 @@
     "monaco-code-editor",
     "datasheet-to-tscircuit",
     "dataset-srj24",
-    "header-modules"
+    "header-modules",
+    "dual-rp2350-gameboy"
   ],
   "@tscircuit/runframe": [
     "tscircuit",
