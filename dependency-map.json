@@ -155,7 +155,8 @@
     "dataset-srj27-power-traces",
     "rp2040-photo-diode-stick",
     "bus-tracer",
-    "rp2040-355nm-photodiode"
+    "rp2040-355nm-photodiode",
+    "al_clad_stm_board"
   ],
   "@tscircuit/checks": [
     "tscircuit",
@@ -366,7 +367,8 @@
     "datasheet-to-tscircuit",
     "dataset-srj24",
     "header-modules",
-    "dual-rp2350-gameboy"
+    "dual-rp2350-gameboy",
+    "al_clad_rp2040_board"
   ],
   "@tscircuit/runframe": [
     "tscircuit",
