@@ -78,7 +78,6 @@
     "circuit-json-to-spice",
     "cli",
     "circuit-json-to-readable-netlist",
-    "circuitjson.com",
     "tscircuit-autorouter",
     "circuit-json-to-simple-3d",
     "circuit-json-to-bpc",
@@ -156,13 +155,15 @@
     "rp2040-photo-diode-stick",
     "bus-tracer",
     "rp2040-355nm-photodiode",
-    "al_clad_stm_board"
+    "al_clad_stm_board",
+    "dataset-srj28-partially-prerouted"
   ],
   "@tscircuit/checks": [
     "tscircuit",
     "core",
     "eval",
     "tscircuit-autorouter",
+    "biscuit-boards",
     "autorouting-dataset-01",
     "pycircuits",
     "circuit-json-schematic-placement-analysis",
@@ -206,6 +207,7 @@
     "circuit-preview",
     "copper-pour-solver",
     "kicad-to-circuit-json",
+    "biscuit-boards",
     "autorouting-dataset-01",
     "pycircuits",
     "circuit-json-schematic-placement-analysis",
@@ -218,7 +220,8 @@
     "dataset-srj24",
     "rp2040-motor-controller",
     "power-trace-expander",
-    "dataset-srj27-power-traces"
+    "dataset-srj27-power-traces",
+    "biscuit-board-autorouter"
   ],
   "@tscircuit/create-fdm-enclosure": [
     "tscircuit",
@@ -358,6 +361,7 @@
     "circuit-json-to-readable-netlist",
     "parts-engine",
     "ngspice-spice-engine",
+    "biscuit-boards",
     "autorouting-dataset-01",
     "pycircuits",
     "circuit-json-schematic-placement-analysis",
@@ -368,7 +372,8 @@
     "dataset-srj24",
     "header-modules",
     "dual-rp2350-gameboy",
-    "al_clad_rp2040_board"
+    "al_clad_rp2040_board",
+    "biscuit-board-autorouter"
   ],
   "@tscircuit/runframe": [
     "tscircuit",
@@ -453,7 +458,8 @@
     "prefab-boundary-router",
     "crossbar-mapping-solver",
     "dataset-srj27-power-traces",
-    "bus-tracer"
+    "bus-tracer",
+    "biscuit-board-autorouter"
   ],
   "@tscircuit/soup-util": [
     "tscircuit",
@@ -484,7 +490,6 @@
     "schematic-autolayout",
     "tscircuit.com",
     "runframe",
-    "circuitjson.com",
     "bpc-graph",
     "schematic-corpus-generator",
     "matchpack",
@@ -521,7 +526,6 @@
     "tscircuit.com",
     "dsn-viewer",
     "runframe",
-    "circuitjson.com",
     "circuit-preview",
     "arduino-uno-with-re-routing-demo",
     "dataset-srj18",
@@ -564,7 +568,6 @@
   "@tscircuit/3d-viewer": [
     "tscircuit.com",
     "runframe",
-    "circuitjson.com",
     "circuit-preview",
     "arduino-uno-with-re-routing-demo",
     "monaco-code-editor",
@@ -573,7 +576,6 @@
   "@tscircuit/assembly-viewer": [
     "tscircuit.com",
     "runframe",
-    "circuitjson.com",
     "circuit-preview",
     "arduino-uno-with-re-routing-demo",
     "monaco-code-editor",
@@ -582,7 +584,6 @@
   "@tscircuit/create-snippet-url": [
     "tscircuit.com",
     "runframe",
-    "circuitjson.com",
     "svg.tscircuit.com",
     "docs",
     "browser-preview.tscircuit.com",
@@ -667,7 +668,8 @@
     "rectdiff",
     "pcb-poly-hyper-graph",
     "effort-benchmark",
-    "auto-router-refactor"
+    "auto-router-refactor",
+    "dataset-srj28-partially-prerouted"
   ],
   "@tscircuit/curvy-trace-solver": [
     "tscircuit-autorouter"
@@ -679,6 +681,9 @@
     "tscircuit-autorouter"
   ],
   "@tscircuit/dataset-srj27-power-traces": [
+    "tscircuit-autorouter"
+  ],
+  "@tscircuit/dataset-srj28-partially-prerouted": [
     "tscircuit-autorouter"
   ],
   "@tscircuit/fixed-via-hypergraph-solver": [
@@ -719,11 +724,17 @@
     "dataset-zero-obstacle-high-density-z01",
     "dataset-z09"
   ],
+  "@tscircuit/high-density-b01": [
+    "tscircuit-autorouter"
+  ],
   "@tscircuit/schematic-corpus": [
     "bpc-graph"
   ],
   "@tscircuit/iframe": [
     "schematic-corpus-generator"
+  ],
+  "@tscircuit/biscuit-board-autorouter": [
+    "biscuit-boards"
   ],
   "@tscircuit/find-convex-regions": [
     "jumper-topology-generator",
