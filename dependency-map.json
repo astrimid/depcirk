@@ -239,7 +239,8 @@
     "pycircuits",
     "autorouting-phase-demo",
     "dataset-srj20",
-    "system-block-designer"
+    "system-block-designer",
+    "datasheet-to-tscircuit"
   ],
   "@tscircuit/fanout-solver": [
     "tscircuit",
