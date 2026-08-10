@@ -156,7 +156,9 @@
     "bus-tracer",
     "rp2040-355nm-photodiode",
     "al_clad_stm_board",
-    "dataset-srj28-partially-prerouted"
+    "dataset-srj28-partially-prerouted",
+    "spi-display-webcam-interceptor",
+    "dataset-srj29-bga-decoupling"
   ],
   "@tscircuit/checks": [
     "tscircuit",
