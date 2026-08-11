@@ -20,7 +20,8 @@
     "fabrication-operator-ui",
     "check-shorts",
     "pads-to-circuit-json",
-    "altium-to-circuit-json"
+    "altium-to-circuit-json",
+    "easyeda-to-circuit-json"
   ],
   "@tscircuit/math-utils": [
     "pcb-viewer",
@@ -106,7 +107,8 @@
     "check-shorts",
     "dataset-srj24",
     "pads-to-circuit-json",
-    "altium-to-circuit-json"
+    "altium-to-circuit-json",
+    "easyeda-to-circuit-json"
   ],
   "@tscircuit/eagle-xml-converter": [
     "pcb-viewer"
@@ -716,7 +718,8 @@
   "@tscircuit/power-trace-expander": [
     "tscircuit-autorouter",
     "rp2040-motor-controller",
-    "dataset-srj27-power-traces"
+    "dataset-srj27-power-traces",
+    "biscuit-board-autorouter"
   ],
   "@tscircuit/rectdiff": [
     "tscircuit-autorouter",
