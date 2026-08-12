@@ -23,7 +23,8 @@
     "altium-to-circuit-json",
     "easyeda-to-circuit-json",
     "circuit-json-to-fdm-component-box",
-    "gltf-slice"
+    "gltf-slice",
+    "generate-fpc-cable"
   ],
   "@tscircuit/math-utils": [
     "pcb-viewer",
@@ -286,7 +287,8 @@
     "dataset-srj18",
     "check-shorts",
     "dataset-srj24",
-    "circuit-json-to-fdm-component-box"
+    "circuit-json-to-fdm-component-box",
+    "generate-fpc-cable"
   ],
   "@tscircuit/infer-cable-insertion-point": [
     "tscircuit",
