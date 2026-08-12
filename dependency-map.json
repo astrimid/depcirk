@@ -21,7 +21,9 @@
     "check-shorts",
     "pads-to-circuit-json",
     "altium-to-circuit-json",
-    "easyeda-to-circuit-json"
+    "easyeda-to-circuit-json",
+    "circuit-json-to-fdm-component-box",
+    "gltf-slice"
   ],
   "@tscircuit/math-utils": [
     "pcb-viewer",
@@ -159,7 +161,6 @@
     "rp2040-355nm-photodiode",
     "al_clad_stm_board",
     "dataset-srj28-partially-prerouted",
-    "spi-display-webcam-interceptor",
     "dataset-srj29-bga-decoupling"
   ],
   "@tscircuit/checks": [
@@ -284,7 +285,8 @@
     "circuit-json-schematic-placement-analysis",
     "dataset-srj18",
     "check-shorts",
-    "dataset-srj24"
+    "dataset-srj24",
+    "circuit-json-to-fdm-component-box"
   ],
   "@tscircuit/infer-cable-insertion-point": [
     "tscircuit",
