@@ -24,7 +24,8 @@
     "easyeda-to-circuit-json",
     "circuit-json-to-fdm-component-box",
     "gltf-slice",
-    "generate-fpc-cable"
+    "generate-fpc-cable",
+    "boosterpacks.tscircuit.com"
   ],
   "@tscircuit/math-utils": [
     "pcb-viewer",
@@ -280,6 +281,7 @@
   "@tscircuit/image-utils": [
     "tscircuit",
     "core",
+    "bun-match-svg",
     "graphics-debug",
     "eval",
     "cli",
