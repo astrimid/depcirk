@@ -19,6 +19,7 @@
     "via-drill-guide-generator",
     "fabrication-operator-ui",
     "check-shorts",
+    "fanout-solver",
     "pads-to-circuit-json",
     "altium-to-circuit-json",
     "easyeda-to-circuit-json",
@@ -110,6 +111,7 @@
     "dataset-srj22",
     "check-shorts",
     "dataset-srj24",
+    "fanout-solver",
     "pads-to-circuit-json",
     "altium-to-circuit-json",
     "easyeda-to-circuit-json"
