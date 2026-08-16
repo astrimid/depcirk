@@ -69,7 +69,8 @@
     "layerweaver",
     "length-matching-solver",
     "circuit-json-to-footprinter",
-    "dataset-srj24"
+    "dataset-srj24",
+    "route-styler"
   ],
   "@tscircuit/circuit-json-util": [
     "pcb-viewer",
@@ -114,7 +115,8 @@
     "fanout-solver",
     "pads-to-circuit-json",
     "altium-to-circuit-json",
-    "easyeda-to-circuit-json"
+    "easyeda-to-circuit-json",
+    "route-styler"
   ],
   "@tscircuit/eagle-xml-converter": [
     "pcb-viewer"
@@ -183,7 +185,8 @@
     "dataset-srj24",
     "rp2040-motor-controller",
     "dataset-srj27-power-traces",
-    "bus-tracer"
+    "bus-tracer",
+    "route-styler"
   ],
   "@tscircuit/cli": [
     "tscircuit",
@@ -472,7 +475,8 @@
     "crossbar-mapping-solver",
     "dataset-srj27-power-traces",
     "bus-tracer",
-    "biscuit-board-autorouter"
+    "biscuit-board-autorouter",
+    "route-styler"
   ],
   "@tscircuit/soup-util": [
     "tscircuit",
