@@ -199,10 +199,12 @@
     "core",
     "eval",
     "kicad-to-circuit-json",
+    "biscuit-boards",
     "pycircuits",
     "circuit-json-schematic-placement-analysis",
     "dataset-srj18",
-    "dataset-srj24"
+    "dataset-srj24",
+    "via-stitch-solver"
   ],
   "@tscircuit/core": [
     "tscircuit",
@@ -233,7 +235,8 @@
     "rp2040-motor-controller",
     "power-trace-expander",
     "dataset-srj27-power-traces",
-    "biscuit-board-autorouter"
+    "biscuit-board-autorouter",
+    "via-stitch-solver"
   ],
   "@tscircuit/create-fdm-enclosure": [
     "tscircuit",
@@ -295,7 +298,8 @@
     "check-shorts",
     "dataset-srj24",
     "circuit-json-to-fdm-component-box",
-    "generate-fpc-cable"
+    "generate-fpc-cable",
+    "via-stitch-solver"
   ],
   "@tscircuit/infer-cable-insertion-point": [
     "tscircuit",
@@ -476,7 +480,8 @@
     "dataset-srj27-power-traces",
     "bus-tracer",
     "biscuit-board-autorouter",
-    "route-styler"
+    "route-styler",
+    "via-stitch-solver"
   ],
   "@tscircuit/soup-util": [
     "tscircuit",
@@ -644,7 +649,8 @@
     "eval",
     "copper-pour-solver",
     "circuit-json-to-lbrn",
-    "circuit-json-to-footprinter"
+    "circuit-json-to-footprinter",
+    "via-stitch-solver"
   ],
   "@tscircuit/parts-engine": [
     "eval"
