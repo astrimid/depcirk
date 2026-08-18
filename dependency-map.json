@@ -1,4 +1,52 @@
 {
+  "@tscircuit/circuit-json-util": [
+    "schematic-viewer",
+    "pcb-viewer",
+    "tscircuit",
+    "footprinter",
+    "kicad-mod-cache",
+    "easyeda-converter",
+    "3d-viewer",
+    "core",
+    "checks",
+    "eval",
+    "circuit-json-to-spice",
+    "cli",
+    "circuit-json-to-readable-netlist",
+    "tscircuit-autorouter",
+    "circuit-json-to-simple-3d",
+    "circuit-json-to-bpc",
+    "calculate-packing",
+    "matchpack",
+    "circuit-json-to-gltf",
+    "circuit-json-to-step",
+    "circuit-preview",
+    "copper-pour-solver",
+    "test-github-automerge",
+    "kicad-to-circuit-json",
+    "circuit-to-canvas",
+    "configure-interconnect",
+    "circuit-json-to-lbrn",
+    "autorouting-dataset-01",
+    "pycircuits",
+    "circuit-json-schematic-placement-analysis",
+    "circuit-json-to-simple-route-json",
+    "high-density-repair03",
+    "effort-benchmark",
+    "via-drill-guide-generator",
+    "fabrication-operator-ui",
+    "dataset-srj18",
+    "fake-ul-kicad-proxy",
+    "dataset-srj22",
+    "check-shorts",
+    "dataset-srj24",
+    "fanout-solver",
+    "pads-to-circuit-json",
+    "altium-to-circuit-json",
+    "easyeda-to-circuit-json",
+    "route-styler",
+    "via-stitch-solver"
+  ],
   "@tscircuit/alphabet": [
     "pcb-viewer",
     "tscircuit",
@@ -72,52 +120,6 @@
     "dataset-srj24",
     "route-styler"
   ],
-  "@tscircuit/circuit-json-util": [
-    "pcb-viewer",
-    "tscircuit",
-    "footprinter",
-    "kicad-mod-cache",
-    "easyeda-converter",
-    "3d-viewer",
-    "core",
-    "checks",
-    "eval",
-    "circuit-json-to-spice",
-    "cli",
-    "circuit-json-to-readable-netlist",
-    "tscircuit-autorouter",
-    "circuit-json-to-simple-3d",
-    "circuit-json-to-bpc",
-    "calculate-packing",
-    "matchpack",
-    "circuit-json-to-gltf",
-    "circuit-json-to-step",
-    "circuit-preview",
-    "copper-pour-solver",
-    "test-github-automerge",
-    "kicad-to-circuit-json",
-    "circuit-to-canvas",
-    "configure-interconnect",
-    "circuit-json-to-lbrn",
-    "autorouting-dataset-01",
-    "pycircuits",
-    "circuit-json-schematic-placement-analysis",
-    "circuit-json-to-simple-route-json",
-    "high-density-repair03",
-    "effort-benchmark",
-    "via-drill-guide-generator",
-    "fabrication-operator-ui",
-    "dataset-srj18",
-    "fake-ul-kicad-proxy",
-    "dataset-srj22",
-    "check-shorts",
-    "dataset-srj24",
-    "fanout-solver",
-    "pads-to-circuit-json",
-    "altium-to-circuit-json",
-    "easyeda-to-circuit-json",
-    "route-styler"
-  ],
   "@tscircuit/eagle-xml-converter": [
     "pcb-viewer"
   ],
@@ -167,6 +169,7 @@
     "rp2040-355nm-photodiode",
     "al_clad_stm_board",
     "dataset-srj28-partially-prerouted",
+    "spi-display-webcam-interceptor",
     "dataset-srj29-bga-decoupling"
   ],
   "@tscircuit/checks": [
@@ -260,7 +263,8 @@
   "@tscircuit/fanout-solver": [
     "tscircuit",
     "core",
-    "eval"
+    "eval",
+    "tscircuit-autorouter"
   ],
   "@tscircuit/footprinter": [
     "tscircuit",
@@ -707,6 +711,9 @@
     "tscircuit-autorouter"
   ],
   "@tscircuit/dataset-srj28-partially-prerouted": [
+    "tscircuit-autorouter"
+  ],
+  "@tscircuit/dataset-srj29-ddr3-bga-pairs": [
     "tscircuit-autorouter"
   ],
   "@tscircuit/fixed-via-hypergraph-solver": [
