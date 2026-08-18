@@ -486,7 +486,6 @@
   ],
   "@tscircuit/soup-util": [
     "tscircuit",
-    "schematic-autolayout",
     "footprinter",
     "motor-controller",
     "core",
@@ -510,7 +509,6 @@
   ],
   "@tscircuit/schematic-viewer": [
     "schematic-layout-testing",
-    "schematic-autolayout",
     "tscircuit.com",
     "runframe",
     "bpc-graph",
