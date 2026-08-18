@@ -44,8 +44,7 @@
     "pads-to-circuit-json",
     "altium-to-circuit-json",
     "easyeda-to-circuit-json",
-    "route-styler",
-    "via-stitch-solver"
+    "route-styler"
   ],
   "@tscircuit/alphabet": [
     "pcb-viewer",
@@ -206,8 +205,7 @@
     "pycircuits",
     "circuit-json-schematic-placement-analysis",
     "dataset-srj18",
-    "dataset-srj24",
-    "via-stitch-solver"
+    "dataset-srj24"
   ],
   "@tscircuit/core": [
     "tscircuit",
@@ -302,8 +300,7 @@
     "check-shorts",
     "dataset-srj24",
     "circuit-json-to-fdm-component-box",
-    "generate-fpc-cable",
-    "via-stitch-solver"
+    "generate-fpc-cable"
   ],
   "@tscircuit/infer-cable-insertion-point": [
     "tscircuit",
@@ -653,8 +650,7 @@
     "eval",
     "copper-pour-solver",
     "circuit-json-to-lbrn",
-    "circuit-json-to-footprinter",
-    "via-stitch-solver"
+    "circuit-json-to-footprinter"
   ],
   "@tscircuit/parts-engine": [
     "eval"
