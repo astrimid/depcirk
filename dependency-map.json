@@ -739,7 +739,6 @@
   ],
   "@tscircuit/power-trace-expander": [
     "tscircuit-autorouter",
-    "rp2040-motor-controller",
     "dataset-srj27-power-traces",
     "biscuit-board-autorouter"
   ],
