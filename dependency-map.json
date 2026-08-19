@@ -483,7 +483,8 @@
     "bus-tracer",
     "biscuit-board-autorouter",
     "route-styler",
-    "via-stitch-solver"
+    "via-stitch-solver",
+    "winding-breakout-point-solver"
   ],
   "@tscircuit/soup-util": [
     "tscircuit",
