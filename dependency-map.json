@@ -484,7 +484,8 @@
     "biscuit-board-autorouter",
     "route-styler",
     "via-stitch-solver",
-    "winding-breakout-point-solver"
+    "winding-breakout-point-solver",
+    "implicit-copper-pour-solver"
   ],
   "@tscircuit/soup-util": [
     "tscircuit",
