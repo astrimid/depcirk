@@ -44,7 +44,8 @@
     "pads-to-circuit-json",
     "altium-to-circuit-json",
     "easyeda-to-circuit-json",
-    "route-styler"
+    "route-styler",
+    "implicit-copper-pour-solver"
   ],
   "@tscircuit/alphabet": [
     "pcb-viewer",
