@@ -533,7 +533,8 @@
     "eval",
     "circuit-json-to-tscircuit",
     "pycircuits",
-    "fabrication-operator-ui"
+    "fabrication-operator-ui",
+    "modelprinter"
   ],
   "@tscircuit/log-soup": [
     "footprinter",
@@ -586,6 +587,9 @@
     "core",
     "checks",
     "eval"
+  ],
+  "@tscircuit/modelprinter": [
+    "jscad-electronics"
   ],
   "@tscircuit/plop": [
     "circuit-to-png",
