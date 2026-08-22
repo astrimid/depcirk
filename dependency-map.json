@@ -567,10 +567,6 @@
     "bun-ffi-benchmarking",
     "fake-freerouting"
   ],
-  "@tscircuit/breakout-point-solver": [
-    "core",
-    "eval"
-  ],
   "@tscircuit/common": [
     "core",
     "eval",
@@ -587,6 +583,10 @@
   "@tscircuit/jlcpcb-manufacturing-specs": [
     "core",
     "checks",
+    "eval"
+  ],
+  "@tscircuit/winding-breakout-point-solver": [
+    "core",
     "eval"
   ],
   "@tscircuit/modelprinter": [
@@ -664,6 +664,9 @@
     "eval"
   ],
   "@tscircuit/schematic-autolayout": [
+    "eval"
+  ],
+  "@tscircuit/breakout-point-solver": [
     "eval"
   ],
   "@tscircuit/fake-snippets": [
