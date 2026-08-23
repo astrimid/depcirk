@@ -239,7 +239,8 @@
     "power-trace-expander",
     "dataset-srj27-power-traces",
     "biscuit-board-autorouter",
-    "via-stitch-solver"
+    "via-stitch-solver",
+    "bga-fanout-solver"
   ],
   "@tscircuit/create-fdm-enclosure": [
     "tscircuit",
@@ -486,7 +487,8 @@
     "route-styler",
     "via-stitch-solver",
     "winding-breakout-point-solver",
-    "implicit-copper-pour-solver"
+    "implicit-copper-pour-solver",
+    "bga-fanout-solver"
   ],
   "@tscircuit/soup-util": [
     "tscircuit",
