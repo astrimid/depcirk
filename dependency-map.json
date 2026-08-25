@@ -20,6 +20,7 @@
     "matchpack",
     "circuit-json-to-gltf",
     "circuit-json-to-step",
+    "schematic-trace-solver",
     "circuit-preview",
     "copper-pour-solver",
     "test-github-automerge",
@@ -59,6 +60,7 @@
     "graphics-debug",
     "eval",
     "circuit-json-to-gltf",
+    "schematic-trace-solver",
     "poppygl",
     "circuit-to-canvas",
     "circuit-json-to-geometry",
@@ -427,7 +429,8 @@
     "pycircuits",
     "circuit-json-schematic-placement-analysis",
     "dataset-srj18",
-    "dataset-srj24"
+    "dataset-srj24",
+    "schematic-parity-testing"
   ],
   "@tscircuit/simple-3d-svg": [
     "tscircuit",
