@@ -572,6 +572,10 @@
     "bun-ffi-benchmarking",
     "fake-freerouting"
   ],
+  "@tscircuit/bga-fanout-solver": [
+    "core",
+    "eval"
+  ],
   "@tscircuit/common": [
     "core",
     "eval",
@@ -584,6 +588,10 @@
     "rp2040-motor-controller",
     "rp2040-photo-diode-stick",
     "rp2040-355nm-photodiode"
+  ],
+  "@tscircuit/implicit-copper-pour-solver": [
+    "core",
+    "eval"
   ],
   "@tscircuit/jlcpcb-manufacturing-specs": [
     "core",
