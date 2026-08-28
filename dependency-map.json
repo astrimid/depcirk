@@ -233,6 +233,7 @@
     "autorouting-phase-demo",
     "dataset-srj18",
     "dataset-srj20",
+    "ti",
     "dataset-srj22",
     "circuit-json-to-footprinter",
     "datasheet-to-tscircuit",
