@@ -46,7 +46,8 @@
     "altium-to-circuit-json",
     "easyeda-to-circuit-json",
     "route-styler",
-    "implicit-copper-pour-solver"
+    "implicit-copper-pour-solver",
+    "dataset-srj29-drc-corrections"
   ],
   "@tscircuit/alphabet": [
     "pcb-viewer",
@@ -120,7 +121,8 @@
     "length-matching-solver",
     "circuit-json-to-footprinter",
     "dataset-srj24",
-    "route-styler"
+    "route-styler",
+    "dataset-srj29-drc-corrections"
   ],
   "@tscircuit/eagle-xml-converter": [
     "pcb-viewer"
@@ -172,7 +174,9 @@
     "al_clad_stm_board",
     "dataset-srj28-partially-prerouted",
     "spi-display-webcam-interceptor",
-    "dataset-srj29-bga-decoupling"
+    "dataset-srj29-bga-decoupling",
+    "dataset-srj29-drc-corrections",
+    "extract-srj-region"
   ],
   "@tscircuit/checks": [
     "tscircuit",
@@ -191,7 +195,8 @@
     "rp2040-motor-controller",
     "dataset-srj27-power-traces",
     "bus-tracer",
-    "route-styler"
+    "route-styler",
+    "dataset-srj29-drc-corrections"
   ],
   "@tscircuit/cli": [
     "tscircuit",
@@ -492,7 +497,8 @@
     "via-stitch-solver",
     "winding-breakout-point-solver",
     "implicit-copper-pour-solver",
-    "bga-fanout-solver"
+    "bga-fanout-solver",
+    "dataset-srj29-drc-corrections"
   ],
   "@tscircuit/soup-util": [
     "tscircuit",
@@ -605,6 +611,9 @@
   ],
   "@tscircuit/modelprinter": [
     "jscad-electronics"
+  ],
+  "@tscircuit/checks-latest": [
+    "circuit-to-svg"
   ],
   "@tscircuit/plop": [
     "circuit-to-png",
@@ -797,5 +806,8 @@
   ],
   "@tscircuit/bus-tracer": [
     "rk3326"
+  ],
+  "@tscircuit/extract-srj-region": [
+    "dataset-srj29-drc-corrections"
   ]
 }
