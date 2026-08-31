@@ -122,6 +122,7 @@
     "circuit-json-to-footprinter",
     "dataset-srj24",
     "route-styler",
+    "implicit-copper-pour-solver",
     "dataset-srj29-drc-corrections"
   ],
   "@tscircuit/eagle-xml-converter": [
