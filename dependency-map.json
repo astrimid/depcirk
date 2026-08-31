@@ -226,6 +226,7 @@
     "circuit-json-to-readable-netlist",
     "import",
     "autorouting-cache-engine",
+    "svg.tscircuit.com",
     "tscircuit-autorouter",
     "gyromug",
     "circuit-preview",
@@ -261,6 +262,7 @@
     "prompt-benchmarks",
     "runframe",
     "cli",
+    "svg.tscircuit.com",
     "browser-preview.tscircuit.com",
     "tscircuit-prompts",
     "pycircuits",
@@ -391,6 +393,7 @@
     "cli",
     "assembly-viewer",
     "circuit-json-to-readable-netlist",
+    "svg.tscircuit.com",
     "parts-engine",
     "ngspice-spice-engine",
     "biscuit-boards",
@@ -498,7 +501,8 @@
     "winding-breakout-point-solver",
     "implicit-copper-pour-solver",
     "bga-fanout-solver",
-    "dataset-srj29-drc-corrections"
+    "dataset-srj29-drc-corrections",
+    "dataset-hd30"
   ],
   "@tscircuit/soup-util": [
     "tscircuit",
@@ -782,7 +786,8 @@
   "@tscircuit/high-density-a01": [
     "tscircuit-autorouter",
     "dataset-zero-obstacle-high-density-z01",
-    "dataset-z09"
+    "dataset-z09",
+    "dataset-hd30"
   ],
   "@tscircuit/high-density-b01": [
     "tscircuit-autorouter"
