@@ -177,7 +177,8 @@
     "spi-display-webcam-interceptor",
     "dataset-srj29-bga-decoupling",
     "dataset-srj29-drc-corrections",
-    "extract-srj-region"
+    "extract-srj-region",
+    "dataset-fanout31-am62l"
   ],
   "@tscircuit/checks": [
     "tscircuit",
@@ -214,7 +215,9 @@
     "pycircuits",
     "circuit-json-schematic-placement-analysis",
     "dataset-srj18",
-    "dataset-srj24"
+    "dataset-srj24",
+    "fanout-solver",
+    "dataset-fanout31-am62l"
   ],
   "@tscircuit/core": [
     "tscircuit",
@@ -250,7 +253,8 @@
     "dataset-srj27-power-traces",
     "biscuit-board-autorouter",
     "via-stitch-solver",
-    "bga-fanout-solver"
+    "bga-fanout-solver",
+    "dataset-fanout31-am62l"
   ],
   "@tscircuit/create-fdm-enclosure": [
     "tscircuit",
@@ -276,7 +280,8 @@
     "tscircuit",
     "core",
     "eval",
-    "tscircuit-autorouter"
+    "tscircuit-autorouter",
+    "dataset-fanout31-am62l"
   ],
   "@tscircuit/footprinter": [
     "tscircuit",
@@ -323,7 +328,9 @@
     "pycircuits",
     "circuit-json-schematic-placement-analysis",
     "dataset-srj18",
-    "dataset-srj24"
+    "dataset-srj24",
+    "fanout-solver",
+    "dataset-fanout31-am62l"
   ],
   "@tscircuit/infgrid-ijump-astar": [
     "tscircuit",
@@ -371,7 +378,9 @@
     "pycircuits",
     "circuit-json-schematic-placement-analysis",
     "dataset-srj18",
-    "dataset-srj24"
+    "dataset-srj24",
+    "fanout-solver",
+    "dataset-fanout31-am62l"
   ],
   "@tscircuit/ngspice-spice-engine": [
     "tscircuit",
@@ -440,7 +449,9 @@
     "circuit-json-schematic-placement-analysis",
     "dataset-srj18",
     "dataset-srj24",
-    "schematic-parity-testing"
+    "fanout-solver",
+    "schematic-parity-testing",
+    "dataset-fanout31-am62l"
   ],
   "@tscircuit/simple-3d-svg": [
     "tscircuit",
@@ -503,7 +514,8 @@
     "implicit-copper-pour-solver",
     "bga-fanout-solver",
     "dataset-srj29-drc-corrections",
-    "dataset-hd30"
+    "dataset-hd30",
+    "dataset-fanout31-am62l"
   ],
   "@tscircuit/soup-util": [
     "tscircuit",
@@ -522,7 +534,9 @@
     "circuit-json-schematic-placement-analysis",
     "fabrication-operator-ui",
     "dataset-srj18",
-    "dataset-srj24"
+    "dataset-srj24",
+    "fanout-solver",
+    "dataset-fanout31-am62l"
   ],
   "@tscircuit/footprints": [
     "a555timer",
