@@ -759,16 +759,20 @@
     "tscircuit-autorouter"
   ],
   "@tscircuit/dataset-srj05": [
-    "tscircuit-autorouter"
+    "tscircuit-autorouter",
+    "dataset-srj32-trace-simplification"
   ],
   "@tscircuit/dataset-srj24": [
-    "tscircuit-autorouter"
+    "tscircuit-autorouter",
+    "dataset-srj32-trace-simplification"
   ],
   "@tscircuit/dataset-srj27-power-traces": [
-    "tscircuit-autorouter"
+    "tscircuit-autorouter",
+    "dataset-srj32-trace-simplification"
   ],
   "@tscircuit/dataset-srj28-partially-prerouted": [
-    "tscircuit-autorouter"
+    "tscircuit-autorouter",
+    "dataset-srj32-trace-simplification"
   ],
   "@tscircuit/dataset-srj29-ddr3-bga-pairs": [
     "tscircuit-autorouter"
