@@ -179,7 +179,8 @@
     "quick-configure",
     "dataset-srj29-drc-corrections",
     "extract-srj-region",
-    "dataset-fanout31-am62l"
+    "dataset-fanout31-am62l",
+    "dataset-srj32-trace-simplification"
   ],
   "@tscircuit/checks": [
     "tscircuit",
@@ -518,7 +519,8 @@
     "bga-fanout-solver",
     "dataset-srj29-drc-corrections",
     "dataset-hd30",
-    "dataset-fanout31-am62l"
+    "dataset-fanout31-am62l",
+    "dataset-srj32-trace-simplification"
   ],
   "@tscircuit/soup-util": [
     "tscircuit",
@@ -748,7 +750,8 @@
     "pcb-poly-hyper-graph",
     "effort-benchmark",
     "auto-router-refactor",
-    "dataset-srj28-partially-prerouted"
+    "dataset-srj28-partially-prerouted",
+    "dataset-srj32-trace-simplification"
   ],
   "@tscircuit/curvy-trace-solver": [
     "tscircuit-autorouter"
