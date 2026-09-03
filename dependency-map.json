@@ -284,6 +284,7 @@
     "core",
     "eval",
     "tscircuit-autorouter",
+    "quick-configure",
     "dataset-fanout31-am62l"
   ],
   "@tscircuit/footprinter": [
@@ -631,7 +632,8 @@
   ],
   "@tscircuit/winding-breakout-point-solver": [
     "core",
-    "eval"
+    "eval",
+    "quick-configure"
   ],
   "@tscircuit/modelprinter": [
     "jscad-electronics"
