@@ -176,6 +176,7 @@
     "dataset-srj28-partially-prerouted",
     "spi-display-webcam-interceptor",
     "dataset-srj29-bga-decoupling",
+    "quick-configure",
     "dataset-srj29-drc-corrections",
     "extract-srj-region",
     "dataset-fanout31-am62l"
@@ -253,6 +254,7 @@
     "dataset-srj27-power-traces",
     "biscuit-board-autorouter",
     "via-stitch-solver",
+    "quick-configure",
     "bga-fanout-solver",
     "dataset-fanout31-am62l"
   ],
@@ -418,7 +420,8 @@
     "header-modules",
     "dual-rp2350-gameboy",
     "al_clad_rp2040_board",
-    "biscuit-board-autorouter"
+    "biscuit-board-autorouter",
+    "quick-configure"
   ],
   "@tscircuit/runframe": [
     "tscircuit",
