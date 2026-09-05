@@ -777,6 +777,9 @@
   "@tscircuit/dataset-srj29-ddr3-bga-pairs": [
     "tscircuit-autorouter"
   ],
+  "@tscircuit/dataset-srj33-drc-failures": [
+    "tscircuit-autorouter"
+  ],
   "@tscircuit/fixed-via-hypergraph-solver": [
     "tscircuit-autorouter"
   ],
