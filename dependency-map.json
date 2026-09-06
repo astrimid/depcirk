@@ -601,7 +601,8 @@
     "dataset-srj18",
     "monaco-code-editor",
     "datasheet-to-tscircuit",
-    "dataset-srj24"
+    "dataset-srj24",
+    "pcb-generation-benchmark01"
   ],
   "@tscircuit/soup": [
     "specctra-dsn-json",
