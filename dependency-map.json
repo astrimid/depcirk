@@ -47,7 +47,8 @@
     "easyeda-to-circuit-json",
     "route-styler",
     "implicit-copper-pour-solver",
-    "dataset-srj29-drc-corrections"
+    "dataset-srj29-drc-corrections",
+    "minimal-autorouter-rewrite-2026"
   ],
   "@tscircuit/alphabet": [
     "pcb-viewer",
@@ -123,7 +124,8 @@
     "dataset-srj24",
     "route-styler",
     "implicit-copper-pour-solver",
-    "dataset-srj29-drc-corrections"
+    "dataset-srj29-drc-corrections",
+    "repair04"
   ],
   "@tscircuit/eagle-xml-converter": [
     "pcb-viewer"
@@ -144,6 +146,7 @@
     "tscircuit",
     "core",
     "eval",
+    "runframe",
     "rectdiff",
     "autorouting-dataset-01",
     "high-density-dataset-z04",
@@ -200,7 +203,8 @@
     "dataset-srj27-power-traces",
     "bus-tracer",
     "route-styler",
-    "dataset-srj29-drc-corrections"
+    "dataset-srj29-drc-corrections",
+    "minimal-autorouter-rewrite-2026"
   ],
   "@tscircuit/cli": [
     "tscircuit",
@@ -521,7 +525,8 @@
     "dataset-srj29-drc-corrections",
     "dataset-hd30",
     "dataset-fanout31-am62l",
-    "dataset-srj32-trace-simplification"
+    "dataset-srj32-trace-simplification",
+    "repair04"
   ],
   "@tscircuit/soup-util": [
     "tscircuit",
