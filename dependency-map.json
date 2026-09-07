@@ -183,7 +183,8 @@
     "dataset-srj29-drc-corrections",
     "extract-srj-region",
     "dataset-fanout31-am62l",
-    "dataset-srj32-trace-simplification"
+    "dataset-srj32-trace-simplification",
+    "srj-video"
   ],
   "@tscircuit/checks": [
     "tscircuit",
