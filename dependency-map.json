@@ -428,7 +428,8 @@
     "dual-rp2350-gameboy",
     "al_clad_rp2040_board",
     "biscuit-board-autorouter",
-    "quick-configure"
+    "quick-configure",
+    "dataset-fanout31-am62l"
   ],
   "@tscircuit/runframe": [
     "tscircuit",
@@ -637,10 +638,15 @@
     "checks",
     "eval"
   ],
+  "@tscircuit/via-stitch-solver": [
+    "core",
+    "eval"
+  ],
   "@tscircuit/winding-breakout-point-solver": [
     "core",
     "eval",
-    "quick-configure"
+    "quick-configure",
+    "dataset-fanout31-am62l"
   ],
   "@tscircuit/modelprinter": [
     "jscad-electronics"
