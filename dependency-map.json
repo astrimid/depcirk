@@ -826,6 +826,9 @@
     "tscircuit-autorouter",
     "auto-router-refactor"
   ],
+  "@tscircuit/repair04": [
+    "tscircuit-autorouter"
+  ],
   "@tscircuit/high-density-a01": [
     "tscircuit-autorouter",
     "dataset-zero-obstacle-high-density-z01",
