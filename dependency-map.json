@@ -793,6 +793,9 @@
   "@tscircuit/dataset-srj33-drc-failures": [
     "tscircuit-autorouter"
   ],
+  "@tscircuit/fanout-for-pipeline9-fixtures": [
+    "tscircuit-autorouter"
+  ],
   "@tscircuit/fixed-via-hypergraph-solver": [
     "tscircuit-autorouter"
   ],
