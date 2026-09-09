@@ -125,7 +125,8 @@
     "route-styler",
     "implicit-copper-pour-solver",
     "dataset-srj29-drc-corrections",
-    "repair04"
+    "repair04",
+    "pad-junction-simplifier"
   ],
   "@tscircuit/eagle-xml-converter": [
     "pcb-viewer"
@@ -528,7 +529,8 @@
     "dataset-hd30",
     "dataset-fanout31-am62l",
     "dataset-srj32-trace-simplification",
-    "repair04"
+    "repair04",
+    "pad-junction-simplifier"
   ],
   "@tscircuit/soup-util": [
     "tscircuit",
