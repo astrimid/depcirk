@@ -225,6 +225,7 @@
     "dataset-srj18",
     "dataset-srj24",
     "fanout-solver",
+    "implicit-copper-pour-solver",
     "dataset-fanout31-am62l"
   ],
   "@tscircuit/core": [
@@ -262,6 +263,7 @@
     "biscuit-board-autorouter",
     "via-stitch-solver",
     "quick-configure",
+    "implicit-copper-pour-solver",
     "bga-fanout-solver",
     "dataset-fanout31-am62l"
   ],
@@ -340,6 +342,7 @@
     "dataset-srj18",
     "dataset-srj24",
     "fanout-solver",
+    "implicit-copper-pour-solver",
     "dataset-fanout31-am62l"
   ],
   "@tscircuit/infgrid-ijump-astar": [
@@ -390,6 +393,7 @@
     "dataset-srj18",
     "dataset-srj24",
     "fanout-solver",
+    "implicit-copper-pour-solver",
     "dataset-fanout31-am62l"
   ],
   "@tscircuit/ngspice-spice-engine": [
@@ -430,6 +434,7 @@
     "al_clad_rp2040_board",
     "biscuit-board-autorouter",
     "quick-configure",
+    "implicit-copper-pour-solver",
     "dataset-fanout31-am62l"
   ],
   "@tscircuit/runframe": [
@@ -462,6 +467,7 @@
     "dataset-srj18",
     "dataset-srj24",
     "fanout-solver",
+    "implicit-copper-pour-solver",
     "schematic-parity-testing",
     "dataset-fanout31-am62l"
   ],
@@ -551,6 +557,7 @@
     "dataset-srj18",
     "dataset-srj24",
     "fanout-solver",
+    "implicit-copper-pour-solver",
     "dataset-fanout31-am62l"
   ],
   "@tscircuit/footprints": [
