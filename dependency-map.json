@@ -849,6 +849,9 @@
     "dataset-z09",
     "dataset-hd30"
   ],
+  "@tscircuit/high-density-a13": [
+    "tscircuit-autorouter"
+  ],
   "@tscircuit/high-density-b01": [
     "tscircuit-autorouter"
   ],
