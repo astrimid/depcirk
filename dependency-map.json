@@ -48,7 +48,8 @@
     "route-styler",
     "implicit-copper-pour-solver",
     "dataset-srj29-drc-corrections",
-    "minimal-autorouter-rewrite-2026"
+    "minimal-autorouter-rewrite-2026",
+    "check-ugly-traces"
   ],
   "@tscircuit/alphabet": [
     "pcb-viewer",
@@ -536,7 +537,8 @@
     "dataset-fanout31-am62l",
     "dataset-srj32-trace-simplification",
     "repair04",
-    "pad-junction-simplifier"
+    "pad-junction-simplifier",
+    "check-ugly-traces"
   ],
   "@tscircuit/soup-util": [
     "tscircuit",
