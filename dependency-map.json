@@ -51,6 +51,10 @@
     "minimal-autorouter-rewrite-2026",
     "check-ugly-traces"
   ],
+  "@tscircuit/circuit-json-schematic-placement-analysis": [
+    "schematic-viewer",
+    "cli"
+  ],
   "@tscircuit/alphabet": [
     "pcb-viewer",
     "tscircuit",
@@ -758,9 +762,6 @@
     "cli"
   ],
   "@tscircuit/circuit-json-routing-analysis": [
-    "cli"
-  ],
-  "@tscircuit/circuit-json-schematic-placement-analysis": [
     "cli"
   ],
   "@tscircuit/ti-parts-engine": [
