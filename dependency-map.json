@@ -190,7 +190,8 @@
     "extract-srj-region",
     "dataset-fanout31-am62l",
     "dataset-srj32-trace-simplification",
-    "srj-video"
+    "srj-video",
+    "preflight-routing-check-solver"
   ],
   "@tscircuit/checks": [
     "tscircuit",
@@ -298,7 +299,8 @@
     "eval",
     "tscircuit-autorouter",
     "quick-configure",
-    "dataset-fanout31-am62l"
+    "dataset-fanout31-am62l",
+    "bus-lanes-solver"
   ],
   "@tscircuit/footprinter": [
     "tscircuit",
@@ -542,7 +544,9 @@
     "dataset-srj32-trace-simplification",
     "repair04",
     "pad-junction-simplifier",
-    "check-ugly-traces"
+    "check-ugly-traces",
+    "bus-lanes-solver",
+    "preflight-routing-check-solver"
   ],
   "@tscircuit/soup-util": [
     "tscircuit",
@@ -744,6 +748,9 @@
     "eval"
   ],
   "@tscircuit/breakout-point-solver": [
+    "eval"
+  ],
+  "@tscircuit/fabricator-drc": [
     "eval"
   ],
   "@tscircuit/fake-snippets": [
