@@ -196,6 +196,7 @@
   "@tscircuit/checks": [
     "tscircuit",
     "core",
+    "tscircuit.com",
     "eval",
     "tscircuit-autorouter",
     "biscuit-boards",
