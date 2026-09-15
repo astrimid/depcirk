@@ -636,7 +636,8 @@
     "eval"
   ],
   "@tscircuit/bus-lanes-solver": [
-    "core"
+    "core",
+    "eval"
   ],
   "@tscircuit/common": [
     "core",
