@@ -9,6 +9,7 @@
     "3d-viewer",
     "core",
     "checks",
+    "circuit-json-to-pnp-csv",
     "eval",
     "circuit-json-to-spice",
     "cli",
