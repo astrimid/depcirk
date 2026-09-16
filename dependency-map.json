@@ -93,7 +93,6 @@
     "easyeda-converter",
     "core",
     "checks",
-    "circuit-json-to-connectivity-map",
     "dsn-converter",
     "bun-ffi-benchmarking",
     "tscircuit.com",
@@ -278,7 +277,8 @@
   "@tscircuit/create-fdm-enclosure": [
     "tscircuit",
     "core",
-    "eval"
+    "eval",
+    "dataset-srj18"
   ],
   "@tscircuit/eval": [
     "tscircuit",
