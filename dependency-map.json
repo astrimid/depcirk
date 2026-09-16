@@ -50,7 +50,8 @@
     "implicit-copper-pour-solver",
     "dataset-srj29-drc-corrections",
     "minimal-autorouter-rewrite-2026",
-    "check-ugly-traces"
+    "check-ugly-traces",
+    "circuit-json-to-flattenjs"
   ],
   "@tscircuit/circuit-json-schematic-placement-analysis": [
     "schematic-viewer",
@@ -93,6 +94,7 @@
     "easyeda-converter",
     "core",
     "checks",
+    "circuit-json-to-connectivity-map",
     "dsn-converter",
     "bun-ffi-benchmarking",
     "tscircuit.com",
