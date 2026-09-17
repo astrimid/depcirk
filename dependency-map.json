@@ -85,7 +85,8 @@
     "circuit-json-to-fdm-component-box",
     "gltf-slice",
     "generate-fpc-cable",
-    "boosterpacks.tscircuit.com"
+    "boosterpacks.tscircuit.com",
+    "circuit-json-webgpu"
   ],
   "@tscircuit/math-utils": [
     "pcb-viewer",
