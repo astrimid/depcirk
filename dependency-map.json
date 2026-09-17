@@ -51,7 +51,8 @@
     "dataset-srj29-drc-corrections",
     "minimal-autorouter-rewrite-2026",
     "check-ugly-traces",
-    "circuit-json-to-flattenjs"
+    "circuit-json-to-flattenjs",
+    "circuit-json-webgpu"
   ],
   "@tscircuit/circuit-json-schematic-placement-analysis": [
     "schematic-viewer",
@@ -134,7 +135,8 @@
     "implicit-copper-pour-solver",
     "dataset-srj29-drc-corrections",
     "repair04",
-    "pad-junction-simplifier"
+    "pad-junction-simplifier",
+    "circuit-json-webgpu"
   ],
   "@tscircuit/eagle-xml-converter": [
     "pcb-viewer"
@@ -241,6 +243,7 @@
   "@tscircuit/core": [
     "tscircuit",
     "3d-viewer",
+    "checks",
     "dsn-converter",
     "prompt-benchmarks",
     "eval",
