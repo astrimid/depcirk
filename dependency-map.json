@@ -681,6 +681,9 @@
   "@tscircuit/checks-latest": [
     "circuit-to-svg"
   ],
+  "@tscircuit/circuit-json-to-flattenjs": [
+    "checks"
+  ],
   "@tscircuit/plop": [
     "circuit-to-png",
     "pcbburn.com"
