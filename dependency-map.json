@@ -221,7 +221,8 @@
     "bus-tracer",
     "route-styler",
     "dataset-srj29-drc-corrections",
-    "minimal-autorouter-rewrite-2026"
+    "minimal-autorouter-rewrite-2026",
+    "standard-jst-programmer"
   ],
   "@tscircuit/cli": [
     "tscircuit",
