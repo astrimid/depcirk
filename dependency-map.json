@@ -138,10 +138,10 @@
     "pad-junction-simplifier",
     "circuit-json-webgpu"
   ],
-  "@tscircuit/eagle-xml-converter": [
+  "@tscircuit/circuit-json-webgpu": [
     "pcb-viewer"
   ],
-  "@tscircuit/circuit-json-webgpu": [
+  "@tscircuit/eagle-xml-converter": [
     "pcb-viewer"
   ],
   "@tscircuit/builder": [
