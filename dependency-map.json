@@ -137,7 +137,8 @@
     "dataset-srj29-drc-corrections",
     "repair04",
     "pad-junction-simplifier",
-    "circuit-json-webgpu"
+    "circuit-json-webgpu",
+    "trace-simplification-solver"
   ],
   "@tscircuit/circuit-json-webgpu": [
     "pcb-viewer"
@@ -873,6 +874,9 @@
     "auto-router-refactor"
   ],
   "@tscircuit/repair04": [
+    "tscircuit-autorouter"
+  ],
+  "@tscircuit/trace-simplification-solver": [
     "tscircuit-autorouter"
   ],
   "@tscircuit/high-density-a01": [
