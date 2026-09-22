@@ -487,6 +487,7 @@
     "tscircuit",
     "core",
     "eval",
+    "cli",
     "pycircuits",
     "circuit-json-schematic-placement-analysis",
     "dataset-srj18",
