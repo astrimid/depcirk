@@ -87,6 +87,7 @@
     "gltf-slice",
     "generate-fpc-cable",
     "boosterpacks.tscircuit.com",
+    "modelprinter",
     "circuit-json-webgpu"
   ],
   "@tscircuit/math-utils": [
@@ -259,6 +260,7 @@
     "svg.tscircuit.com",
     "tscircuit-autorouter",
     "gyromug",
+    "circuit-json-to-gltf",
     "circuit-preview",
     "copper-pour-solver",
     "kicad-to-circuit-json",
@@ -350,7 +352,8 @@
     "check-shorts",
     "dataset-srj24",
     "circuit-json-to-fdm-component-box",
-    "generate-fpc-cable"
+    "generate-fpc-cable",
+    "modelprinter"
   ],
   "@tscircuit/infer-cable-insertion-point": [
     "tscircuit",
@@ -429,6 +432,7 @@
   "@tscircuit/props": [
     "tscircuit",
     "easyeda-converter",
+    "3d-viewer",
     "core",
     "tscircuit.com",
     "eval",
@@ -438,6 +442,7 @@
     "circuit-json-to-readable-netlist",
     "svg.tscircuit.com",
     "parts-engine",
+    "circuit-json-to-gltf",
     "ngspice-spice-engine",
     "biscuit-boards",
     "autorouting-dataset-01",
