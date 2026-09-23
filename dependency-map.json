@@ -12,6 +12,7 @@
     "circuit-json-to-pnp-csv",
     "eval",
     "circuit-json-to-spice",
+    "runframe",
     "cli",
     "circuit-json-to-readable-netlist",
     "tscircuit-autorouter",
