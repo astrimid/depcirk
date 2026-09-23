@@ -202,7 +202,8 @@
     "dataset-fanout31-am62l",
     "dataset-srj32-trace-simplification",
     "srj-video",
-    "preflight-routing-check-solver"
+    "preflight-routing-check-solver",
+    "pcb-trace-linter"
   ],
   "@tscircuit/checks": [
     "tscircuit",
@@ -245,7 +246,8 @@
     "dataset-srj24",
     "fanout-solver",
     "implicit-copper-pour-solver",
-    "dataset-fanout31-am62l"
+    "dataset-fanout31-am62l",
+    "pcb-trace-linter"
   ],
   "@tscircuit/core": [
     "tscircuit",
@@ -286,7 +288,8 @@
     "quick-configure",
     "implicit-copper-pour-solver",
     "bga-fanout-solver",
-    "dataset-fanout31-am62l"
+    "dataset-fanout31-am62l",
+    "pcb-trace-linter"
   ],
   "@tscircuit/create-fdm-enclosure": [
     "tscircuit",
@@ -367,7 +370,8 @@
     "dataset-srj24",
     "fanout-solver",
     "implicit-copper-pour-solver",
-    "dataset-fanout31-am62l"
+    "dataset-fanout31-am62l",
+    "pcb-trace-linter"
   ],
   "@tscircuit/infgrid-ijump-astar": [
     "tscircuit",
@@ -418,7 +422,8 @@
     "dataset-srj24",
     "fanout-solver",
     "implicit-copper-pour-solver",
-    "dataset-fanout31-am62l"
+    "dataset-fanout31-am62l",
+    "pcb-trace-linter"
   ],
   "@tscircuit/ngspice-spice-engine": [
     "tscircuit",
@@ -496,7 +501,8 @@
     "fanout-solver",
     "implicit-copper-pour-solver",
     "schematic-parity-testing",
-    "dataset-fanout31-am62l"
+    "dataset-fanout31-am62l",
+    "pcb-trace-linter"
   ],
   "@tscircuit/simple-3d-svg": [
     "tscircuit",
@@ -566,7 +572,8 @@
     "pad-junction-simplifier",
     "check-ugly-traces",
     "bus-lanes-solver",
-    "preflight-routing-check-solver"
+    "preflight-routing-check-solver",
+    "pcb-trace-linter"
   ],
   "@tscircuit/soup-util": [
     "tscircuit",
@@ -588,7 +595,8 @@
     "dataset-srj24",
     "fanout-solver",
     "implicit-copper-pour-solver",
-    "dataset-fanout31-am62l"
+    "dataset-fanout31-am62l",
+    "pcb-trace-linter"
   ],
   "@tscircuit/footprints": [
     "a555timer",
@@ -650,6 +658,12 @@
     "circuit-to-png",
     "bun-ffi-benchmarking",
     "fake-freerouting"
+  ],
+  "@tscircuit/flex-utils": [
+    "3d-viewer",
+    "core",
+    "eval",
+    "circuit-json-to-gltf"
   ],
   "@tscircuit/bga-fanout-solver": [
     "core",
