@@ -10,6 +10,7 @@
     "core",
     "checks",
     "circuit-json-to-pnp-csv",
+    "tscircuit.com",
     "eval",
     "circuit-json-to-spice",
     "runframe",
@@ -31,6 +32,7 @@
     "configure-interconnect",
     "circuit-json-to-lbrn",
     "autorouting-dataset-01",
+    "minicanvas",
     "pycircuits",
     "circuit-json-schematic-placement-analysis",
     "circuit-json-to-simple-route-json",
@@ -57,6 +59,7 @@
   ],
   "@tscircuit/circuit-json-schematic-placement-analysis": [
     "schematic-viewer",
+    "checks",
     "cli"
   ],
   "@tscircuit/alphabet": [
@@ -75,6 +78,7 @@
     "poppygl",
     "circuit-to-canvas",
     "circuit-json-to-geometry",
+    "minicanvas",
     "pycircuits",
     "circuit-json-schematic-placement-analysis",
     "via-drill-guide-generator",
