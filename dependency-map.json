@@ -823,6 +823,9 @@
   "@tscircuit/eecircuit-engine": [
     "svg.tscircuit.com"
   ],
+  "@tscircuit/pcb-trace-linter": [
+    "tscircuit-autorouter"
+  ],
   "@tscircuit/autorouting-dataset-01": [
     "tscircuit-autorouter",
     "rectdiff",
