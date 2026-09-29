@@ -55,7 +55,8 @@
     "minimal-autorouter-rewrite-2026",
     "check-ugly-traces",
     "circuit-json-to-flattenjs",
-    "circuit-json-webgpu"
+    "circuit-json-webgpu",
+    "standard-jst-programmer"
   ],
   "@tscircuit/circuit-json-schematic-placement-analysis": [
     "schematic-viewer",
