@@ -139,6 +139,7 @@
     "length-matching-solver",
     "circuit-json-to-footprinter",
     "dataset-srj24",
+    "altium-to-circuit-json",
     "route-styler",
     "implicit-copper-pour-solver",
     "dataset-srj29-drc-corrections",
@@ -303,7 +304,8 @@
     "tscircuit",
     "core",
     "eval",
-    "dataset-srj18"
+    "dataset-srj18",
+    "dataset-srj24"
   ],
   "@tscircuit/eval": [
     "tscircuit",
@@ -695,6 +697,10 @@
     "rp2040-motor-controller",
     "rp2040-photo-diode-stick",
     "rp2040-355nm-photodiode"
+  ],
+  "@tscircuit/dogbone-solver": [
+    "core",
+    "eval"
   ],
   "@tscircuit/implicit-copper-pour-solver": [
     "core",
