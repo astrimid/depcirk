@@ -209,7 +209,8 @@
     "dataset-srj32-trace-simplification",
     "srj-video",
     "preflight-routing-check-solver",
-    "pcb-trace-linter"
+    "pcb-trace-linter",
+    "dogbone-solver"
   ],
   "@tscircuit/checks": [
     "tscircuit",
@@ -326,7 +327,8 @@
     "tscircuit-autorouter",
     "quick-configure",
     "dataset-fanout31-am62l",
-    "bus-lanes-solver"
+    "bus-lanes-solver",
+    "dogbone-solver"
   ],
   "@tscircuit/footprinter": [
     "tscircuit",
@@ -580,7 +582,8 @@
     "check-ugly-traces",
     "bus-lanes-solver",
     "preflight-routing-check-solver",
-    "pcb-trace-linter"
+    "pcb-trace-linter",
+    "dogbone-solver"
   ],
   "@tscircuit/soup-util": [
     "tscircuit",
