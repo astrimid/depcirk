@@ -8,6 +8,7 @@
     "easyeda-converter",
     "3d-viewer",
     "core",
+    "circuit-to-svg",
     "checks",
     "circuit-json-to-pnp-csv",
     "tscircuit.com",
