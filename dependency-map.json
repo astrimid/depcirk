@@ -678,6 +678,10 @@
     "eval",
     "circuit-json-to-gltf"
   ],
+  "@tscircuit/modelprinter": [
+    "3d-viewer",
+    "jscad-electronics"
+  ],
   "@tscircuit/bga-fanout-solver": [
     "core",
     "eval"
@@ -721,9 +725,6 @@
     "eval",
     "quick-configure",
     "dataset-fanout31-am62l"
-  ],
-  "@tscircuit/modelprinter": [
-    "jscad-electronics"
   ],
   "@tscircuit/checks-latest": [
     "circuit-to-svg"
