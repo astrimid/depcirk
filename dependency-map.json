@@ -95,7 +95,6 @@
     "gltf-slice",
     "generate-fpc-cable",
     "boosterpacks.tscircuit.com",
-    "modelprinter",
     "circuit-json-webgpu",
     "flex-utils"
   ],
@@ -371,8 +370,7 @@
     "check-shorts",
     "dataset-srj24",
     "circuit-json-to-fdm-component-box",
-    "generate-fpc-cable",
-    "modelprinter"
+    "generate-fpc-cable"
   ],
   "@tscircuit/infer-cable-insertion-point": [
     "tscircuit",
