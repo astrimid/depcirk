@@ -680,7 +680,9 @@
   ],
   "@tscircuit/modelprinter": [
     "3d-viewer",
-    "jscad-electronics"
+    "core",
+    "jscad-electronics",
+    "eval"
   ],
   "@tscircuit/bga-fanout-solver": [
     "core",
