@@ -55,9 +55,11 @@
     "dataset-srj29-drc-corrections",
     "minimal-autorouter-rewrite-2026",
     "check-ugly-traces",
+    "bus-lanes-solver",
     "circuit-json-to-flattenjs",
     "circuit-json-webgpu",
-    "standard-jst-programmer"
+    "standard-jst-programmer",
+    "models.tscircuit.com"
   ],
   "@tscircuit/circuit-json-schematic-placement-analysis": [
     "schematic-viewer",
@@ -146,8 +148,10 @@
     "dataset-srj29-drc-corrections",
     "repair04",
     "pad-junction-simplifier",
+    "bus-lanes-solver",
     "circuit-json-webgpu",
-    "trace-simplification-solver"
+    "trace-simplification-solver",
+    "models.tscircuit.com"
   ],
   "@tscircuit/circuit-json-webgpu": [
     "pcb-viewer"
@@ -280,6 +284,7 @@
     "route-styler",
     "dataset-srj29-drc-corrections",
     "minimal-autorouter-rewrite-2026",
+    "bus-lanes-solver",
     "standard-jst-programmer"
   ],
   "@tscircuit/cli": [
@@ -357,7 +362,8 @@
     "dataset-srj24",
     "rp2040-motor-controller",
     "fanout-solver",
-    "header-modules"
+    "header-modules",
+    "models.tscircuit.com"
   ],
   "@tscircuit/image-utils": [
     "tscircuit",
@@ -438,6 +444,14 @@
     "dataset-fanout31-am62l",
     "pcb-trace-linter"
   ],
+  "@tscircuit/modelprinter": [
+    "tscircuit",
+    "3d-viewer",
+    "core",
+    "jscad-electronics",
+    "eval",
+    "models.tscircuit.com"
+  ],
   "@tscircuit/ngspice-spice-engine": [
     "tscircuit",
     "core",
@@ -501,21 +515,6 @@
     "circuit-json-schematic-placement-analysis",
     "dataset-srj18",
     "dataset-srj24"
-  ],
-  "@tscircuit/schematic-trace-solver": [
-    "tscircuit",
-    "core",
-    "eval",
-    "cli",
-    "pycircuits",
-    "circuit-json-schematic-placement-analysis",
-    "dataset-srj18",
-    "dataset-srj24",
-    "fanout-solver",
-    "implicit-copper-pour-solver",
-    "schematic-parity-testing",
-    "dataset-fanout31-am62l",
-    "pcb-trace-linter"
   ],
   "@tscircuit/simple-3d-svg": [
     "tscircuit",
@@ -679,12 +678,6 @@
     "eval",
     "circuit-json-to-gltf"
   ],
-  "@tscircuit/modelprinter": [
-    "3d-viewer",
-    "core",
-    "jscad-electronics",
-    "eval"
-  ],
   "@tscircuit/bga-fanout-solver": [
     "core",
     "eval"
@@ -718,6 +711,20 @@
     "core",
     "checks",
     "eval"
+  ],
+  "@tscircuit/schematic-trace-solver": [
+    "core",
+    "eval",
+    "cli",
+    "pycircuits",
+    "circuit-json-schematic-placement-analysis",
+    "dataset-srj18",
+    "dataset-srj24",
+    "fanout-solver",
+    "implicit-copper-pour-solver",
+    "schematic-parity-testing",
+    "dataset-fanout31-am62l",
+    "pcb-trace-linter"
   ],
   "@tscircuit/via-stitch-solver": [
     "core",
