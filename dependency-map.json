@@ -98,7 +98,8 @@
     "generate-fpc-cable",
     "boosterpacks.tscircuit.com",
     "circuit-json-webgpu",
-    "flex-utils"
+    "flex-utils",
+    "cableprinter"
   ],
   "@tscircuit/math-utils": [
     "pcb-viewer",
@@ -450,6 +451,7 @@
     "core",
     "jscad-electronics",
     "eval",
+    "svg.tscircuit.com",
     "models.tscircuit.com"
   ],
   "@tscircuit/ngspice-spice-engine": [
@@ -735,6 +737,11 @@
     "eval",
     "quick-configure",
     "dataset-fanout31-am62l"
+  ],
+  "@tscircuit/cableprinter": [
+    "core",
+    "eval",
+    "circuit-json-to-gltf"
   ],
   "@tscircuit/checks-latest": [
     "circuit-to-svg"
