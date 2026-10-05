@@ -198,7 +198,8 @@
     "implicit-copper-pour-solver",
     "bga-fanout-solver",
     "dataset-fanout31-am62l",
-    "pcb-trace-linter"
+    "pcb-trace-linter",
+    "return-current-simulation"
   ],
   "@tscircuit/eagle-xml-converter": [
     "pcb-viewer"
@@ -588,7 +589,8 @@
     "bus-lanes-solver",
     "preflight-routing-check-solver",
     "pcb-trace-linter",
-    "dogbone-solver"
+    "dogbone-solver",
+    "return-current-simulation"
   ],
   "@tscircuit/soup-util": [
     "tscircuit",
