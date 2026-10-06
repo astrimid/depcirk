@@ -201,7 +201,8 @@
     "dataset-fanout31-am62l",
     "pcb-trace-linter",
     "simulate-return-current",
-    "am3552-sbc"
+    "am3552-sbc",
+    "circuit-json-crosstalk-simulation"
   ],
   "@tscircuit/eagle-xml-converter": [
     "pcb-viewer"
@@ -490,6 +491,7 @@
     "circuit-json-schematic-placement-analysis",
     "autorouting-phase-demo",
     "dataset-srj18",
+    "ti",
     "monaco-code-editor",
     "datasheet-to-tscircuit",
     "dataset-srj24",
@@ -695,6 +697,11 @@
     "eval",
     "am3552-sbc"
   ],
+  "@tscircuit/cableprinter": [
+    "core",
+    "eval",
+    "circuit-json-to-gltf"
+  ],
   "@tscircuit/common": [
     "core",
     "eval",
@@ -744,11 +751,6 @@
     "eval",
     "quick-configure",
     "dataset-fanout31-am62l"
-  ],
-  "@tscircuit/cableprinter": [
-    "core",
-    "eval",
-    "circuit-json-to-gltf"
   ],
   "@tscircuit/checks-latest": [
     "circuit-to-svg"
