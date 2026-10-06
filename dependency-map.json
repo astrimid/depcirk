@@ -59,7 +59,8 @@
     "circuit-json-to-flattenjs",
     "circuit-json-webgpu",
     "standard-jst-programmer",
-    "models.tscircuit.com"
+    "models.tscircuit.com",
+    "am3552-sbc"
   ],
   "@tscircuit/circuit-json-schematic-placement-analysis": [
     "schematic-viewer",
@@ -199,7 +200,8 @@
     "bga-fanout-solver",
     "dataset-fanout31-am62l",
     "pcb-trace-linter",
-    "return-current-simulation"
+    "simulate-return-current",
+    "am3552-sbc"
   ],
   "@tscircuit/eagle-xml-converter": [
     "pcb-viewer"
@@ -287,7 +289,8 @@
     "dataset-srj29-drc-corrections",
     "minimal-autorouter-rewrite-2026",
     "bus-lanes-solver",
-    "standard-jst-programmer"
+    "standard-jst-programmer",
+    "am3552-sbc"
   ],
   "@tscircuit/cli": [
     "tscircuit",
@@ -496,7 +499,8 @@
     "biscuit-board-autorouter",
     "quick-configure",
     "implicit-copper-pour-solver",
-    "dataset-fanout31-am62l"
+    "dataset-fanout31-am62l",
+    "am3552-sbc"
   ],
   "@tscircuit/runframe": [
     "tscircuit",
@@ -590,7 +594,7 @@
     "preflight-routing-check-solver",
     "pcb-trace-linter",
     "dogbone-solver",
-    "return-current-simulation"
+    "simulate-return-current"
   ],
   "@tscircuit/soup-util": [
     "tscircuit",
@@ -688,7 +692,8 @@
   ],
   "@tscircuit/bus-lanes-solver": [
     "core",
-    "eval"
+    "eval",
+    "am3552-sbc"
   ],
   "@tscircuit/common": [
     "core",
