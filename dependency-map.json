@@ -388,7 +388,8 @@
     "check-shorts",
     "dataset-srj24",
     "circuit-json-to-fdm-component-box",
-    "generate-fpc-cable"
+    "generate-fpc-cable",
+    "am3352-sbc"
   ],
   "@tscircuit/infer-cable-insertion-point": [
     "tscircuit",
