@@ -604,7 +604,8 @@
     "pcb-trace-linter",
     "dogbone-solver",
     "simulate-return-current",
-    "return-current-trace-demo"
+    "return-current-trace-demo",
+    "circuit-json-pcb-style-analysis"
   ],
   "@tscircuit/soup-util": [
     "tscircuit",
@@ -690,6 +691,12 @@
     "bun-ffi-benchmarking",
     "fake-freerouting"
   ],
+  "@tscircuit/cableprinter": [
+    "3d-viewer",
+    "core",
+    "eval",
+    "circuit-json-to-gltf"
+  ],
   "@tscircuit/flex-utils": [
     "3d-viewer",
     "core",
@@ -704,11 +711,6 @@
     "core",
     "eval",
     "am3352-sbc"
-  ],
-  "@tscircuit/cableprinter": [
-    "core",
-    "eval",
-    "circuit-json-to-gltf"
   ],
   "@tscircuit/common": [
     "core",
