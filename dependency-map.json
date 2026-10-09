@@ -154,7 +154,8 @@
     "bus-lanes-solver",
     "circuit-json-webgpu",
     "trace-simplification-solver",
-    "models.tscircuit.com"
+    "models.tscircuit.com",
+    "tscircuit-standalone"
   ],
   "@tscircuit/circuit-json-webgpu": [
     "pcb-viewer"
@@ -205,7 +206,8 @@
     "simulate-return-current",
     "am3352-sbc",
     "circuit-json-crosstalk-simulation",
-    "circuit-json-to-gmsh"
+    "circuit-json-to-gmsh",
+    "tscircuit-standalone"
   ],
   "@tscircuit/eagle-xml-converter": [
     "pcb-viewer"
@@ -338,7 +340,8 @@
     "autorouting-phase-demo",
     "dataset-srj20",
     "system-block-designer",
-    "datasheet-to-tscircuit"
+    "datasheet-to-tscircuit",
+    "tscircuit-standalone"
   ],
   "@tscircuit/fanout-solver": [
     "tscircuit",
@@ -374,7 +377,8 @@
     "rp2040-motor-controller",
     "fanout-solver",
     "header-modules",
-    "models.tscircuit.com"
+    "models.tscircuit.com",
+    "tscircuit-standalone"
   ],
   "@tscircuit/image-utils": [
     "tscircuit",
@@ -431,7 +435,8 @@
     "tscircuit-autorouter",
     "dataset-srj18",
     "system-block-designer",
-    "dataset-srj24"
+    "dataset-srj24",
+    "tscircuit-standalone"
   ],
   "@tscircuit/matchpack": [
     "tscircuit",
@@ -509,7 +514,8 @@
     "quick-configure",
     "implicit-copper-pour-solver",
     "dataset-fanout31-am62l",
-    "am3352-sbc"
+    "am3352-sbc",
+    "tscircuit-standalone"
   ],
   "@tscircuit/runframe": [
     "tscircuit",
