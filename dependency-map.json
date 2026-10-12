@@ -60,7 +60,8 @@
     "circuit-json-webgpu",
     "standard-jst-programmer",
     "models.tscircuit.com",
-    "am3352-sbc"
+    "am3352-sbc",
+    "infer-sch-symbol"
   ],
   "@tscircuit/internal-dynamic-import": [
     "schematic-viewer",
@@ -105,7 +106,8 @@
     "implicit-copper-pour-solver",
     "dataset-fanout31-am62l",
     "am3352-sbc",
-    "tscircuit-standalone"
+    "tscircuit-standalone",
+    "infer-sch-symbol"
   ],
   "@tscircuit/soup-util": [
     "schematic-viewer",
@@ -172,7 +174,8 @@
     "circuit-json-webgpu",
     "flex-utils",
     "cableprinter",
-    "jscad-to-manifold"
+    "jscad-to-manifold",
+    "infer-sch-symbol"
   ],
   "@tscircuit/math-utils": [
     "pcb-viewer",
@@ -226,7 +229,8 @@
     "circuit-json-webgpu",
     "trace-simplification-solver",
     "models.tscircuit.com",
-    "tscircuit-standalone"
+    "tscircuit-standalone",
+    "infer-sch-symbol"
   ],
   "@tscircuit/circuit-json-webgpu": [
     "pcb-viewer"
@@ -278,7 +282,8 @@
     "am3352-sbc",
     "circuit-json-crosstalk-simulation",
     "circuit-json-to-gmsh",
-    "tscircuit-standalone"
+    "tscircuit-standalone",
+    "infer-sch-symbol"
   ],
   "@tscircuit/eagle-xml-converter": [
     "pcb-viewer"
@@ -452,7 +457,8 @@
     "fanout-solver",
     "header-modules",
     "models.tscircuit.com",
-    "tscircuit-standalone"
+    "tscircuit-standalone",
+    "infer-sch-symbol"
   ],
   "@tscircuit/image-utils": [
     "tscircuit",
