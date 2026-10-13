@@ -61,6 +61,7 @@
     "standard-jst-programmer",
     "models.tscircuit.com",
     "am3352-sbc",
+    "tscircuit-standalone",
     "infer-sch-symbol"
   ],
   "@tscircuit/internal-dynamic-import": [
@@ -375,7 +376,8 @@
     "minimal-autorouter-rewrite-2026",
     "bus-lanes-solver",
     "standard-jst-programmer",
-    "am3352-sbc"
+    "am3352-sbc",
+    "tscircuit-standalone"
   ],
   "@tscircuit/cli": [
     "tscircuit",
