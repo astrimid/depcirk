@@ -108,7 +108,8 @@
     "dataset-fanout31-am62l",
     "am3352-sbc",
     "tscircuit-standalone",
-    "infer-sch-symbol"
+    "infer-sch-symbol",
+    "dataset-tsx35-kicad-boards"
   ],
   "@tscircuit/soup-util": [
     "schematic-viewer",
@@ -284,7 +285,8 @@
     "circuit-json-crosstalk-simulation",
     "circuit-json-to-gmsh",
     "tscircuit-standalone",
-    "infer-sch-symbol"
+    "infer-sch-symbol",
+    "dataset-tsx35-kicad-boards"
   ],
   "@tscircuit/eagle-xml-converter": [
     "pcb-viewer"
@@ -383,7 +385,8 @@
     "tscircuit",
     "a5v-buck-regulator",
     "deps.tscircuit.com",
-    "tscircuit-standalone"
+    "tscircuit-standalone",
+    "dataset-tsx35-kicad-boards"
   ],
   "@tscircuit/copper-pour-solver": [
     "tscircuit",
