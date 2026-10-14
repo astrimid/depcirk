@@ -382,7 +382,8 @@
   "@tscircuit/cli": [
     "tscircuit",
     "a5v-buck-regulator",
-    "deps.tscircuit.com"
+    "deps.tscircuit.com",
+    "tscircuit-standalone"
   ],
   "@tscircuit/copper-pour-solver": [
     "tscircuit",
