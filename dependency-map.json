@@ -108,8 +108,7 @@
     "dataset-fanout31-am62l",
     "am3352-sbc",
     "tscircuit-standalone",
-    "infer-sch-symbol",
-    "dataset-tsx35-kicad-boards"
+    "infer-sch-symbol"
   ],
   "@tscircuit/soup-util": [
     "schematic-viewer",
@@ -286,7 +285,7 @@
     "circuit-json-to-gmsh",
     "tscircuit-standalone",
     "infer-sch-symbol",
-    "dataset-tsx35-kicad-boards"
+    "single-layer-grid-router"
   ],
   "@tscircuit/eagle-xml-converter": [
     "pcb-viewer"
@@ -385,8 +384,7 @@
     "tscircuit",
     "a5v-buck-regulator",
     "deps.tscircuit.com",
-    "tscircuit-standalone",
-    "dataset-tsx35-kicad-boards"
+    "tscircuit-standalone"
   ],
   "@tscircuit/copper-pour-solver": [
     "tscircuit",
@@ -657,7 +655,8 @@
     "dogbone-solver",
     "simulate-return-current",
     "return-current-trace-demo",
-    "circuit-json-pcb-style-analysis"
+    "circuit-json-pcb-style-analysis",
+    "single-layer-grid-router"
   ],
   "@tscircuit/footprints": [
     "a555timer",
@@ -803,7 +802,8 @@
   ],
   "@tscircuit/plop": [
     "circuit-to-png",
-    "pcbburn.com"
+    "pcbburn.com",
+    "single-layer-grid-router"
   ],
   "@tscircuit/3d-viewer": [
     "tscircuit.com",
