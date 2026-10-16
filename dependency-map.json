@@ -849,10 +849,6 @@
   "@tscircuit/order-dialog": [
     "tscircuit.com"
   ],
-  "@tscircuit/prompt-benchmarks": [
-    "tscircuit.com",
-    "browser-preview.tscircuit.com"
-  ],
   "@tscircuit/featured-snippets": [
     "prompt-benchmarks"
   ],
@@ -996,6 +992,9 @@
   ],
   "@tscircuit/high-density-b01": [
     "tscircuit-autorouter"
+  ],
+  "@tscircuit/prompt-benchmarks": [
+    "browser-preview.tscircuit.com"
   ],
   "@tscircuit/schematic-corpus": [
     "bpc-graph"
