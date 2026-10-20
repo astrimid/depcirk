@@ -467,6 +467,7 @@
   "@tscircuit/image-utils": [
     "tscircuit",
     "core",
+    "circuit-json-to-gerber",
     "bun-match-svg",
     "graphics-debug",
     "eval",
