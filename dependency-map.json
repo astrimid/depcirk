@@ -108,7 +108,8 @@
     "dataset-fanout31-am62l",
     "am3352-sbc",
     "tscircuit-standalone",
-    "infer-sch-symbol"
+    "infer-sch-symbol",
+    "pcb-spice-pipeline"
   ],
   "@tscircuit/soup-util": [
     "schematic-viewer",
@@ -285,7 +286,8 @@
     "circuit-json-to-gmsh",
     "tscircuit-standalone",
     "infer-sch-symbol",
-    "single-layer-grid-router"
+    "single-layer-grid-router",
+    "pcb-spice-pipeline"
   ],
   "@tscircuit/eagle-xml-converter": [
     "pcb-viewer"
@@ -560,7 +562,8 @@
     "circuit-json-schematic-placement-analysis",
     "dataset-srj18",
     "datasheet-to-tscircuit",
-    "dataset-srj24"
+    "dataset-srj24",
+    "ibis-to-spice"
   ],
   "@tscircuit/runframe": [
     "tscircuit",
@@ -1019,5 +1022,8 @@
   ],
   "@tscircuit/extract-srj-region": [
     "dataset-srj29-drc-corrections"
+  ],
+  "@tscircuit/ibis-to-spice": [
+    "pcb-spice-pipeline"
   ]
 }
