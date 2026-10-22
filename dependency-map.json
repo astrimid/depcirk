@@ -177,7 +177,8 @@
     "flex-utils",
     "cableprinter",
     "jscad-to-manifold",
-    "infer-sch-symbol"
+    "infer-sch-symbol",
+    "circuit-json-to-drawing"
   ],
   "@tscircuit/math-utils": [
     "pcb-viewer",
