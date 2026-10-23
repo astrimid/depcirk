@@ -900,6 +900,9 @@
   "@tscircuit/circuit-json-routing-analysis": [
     "cli"
   ],
+  "@tscircuit/pcb-spice-pipeline": [
+    "cli"
+  ],
   "@tscircuit/ti-parts-engine": [
     "svg.tscircuit.com",
     "test-ti-project"
