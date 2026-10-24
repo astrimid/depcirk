@@ -178,7 +178,8 @@
     "cableprinter",
     "jscad-to-manifold",
     "infer-sch-symbol",
-    "circuit-json-to-drawing"
+    "circuit-json-to-drawing",
+    "jscad"
   ],
   "@tscircuit/math-utils": [
     "pcb-viewer",
@@ -735,6 +736,10 @@
     "core",
     "eval",
     "circuit-json-to-gltf"
+  ],
+  "@tscircuit/jscad": [
+    "jscad-planner",
+    "jscad-fiber"
   ],
   "@tscircuit/bga-fanout-solver": [
     "core",
