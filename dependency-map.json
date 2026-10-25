@@ -915,9 +915,6 @@
   "@tscircuit/eecircuit-engine": [
     "svg.tscircuit.com"
   ],
-  "@tscircuit/pcb-trace-linter": [
-    "tscircuit-autorouter"
-  ],
   "@tscircuit/autorouting-dataset-01": [
     "tscircuit-autorouter",
     "rectdiff",
@@ -978,6 +975,9 @@
   "@tscircuit/length-matching-solver": [
     "tscircuit-autorouter",
     "bus-tracer"
+  ],
+  "@tscircuit/pcb-trace-linter": [
+    "tscircuit-autorouter"
   ],
   "@tscircuit/power-trace-expander": [
     "tscircuit-autorouter",
