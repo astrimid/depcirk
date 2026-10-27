@@ -17,6 +17,7 @@
     "runframe",
     "cli",
     "circuit-json-to-readable-netlist",
+    "svg.tscircuit.com",
     "tscircuit-autorouter",
     "circuit-json-to-simple-3d",
     "circuit-json-to-bpc",
@@ -739,6 +740,8 @@
   ],
   "@tscircuit/jscad": [
     "jscad-planner",
+    "core",
+    "jscad-electronics",
     "jscad-fiber"
   ],
   "@tscircuit/bga-fanout-solver": [
@@ -799,6 +802,12 @@
     "eval",
     "quick-configure",
     "dataset-fanout31-am62l"
+  ],
+  "@tscircuit/circuit-json-to-drawing": [
+    "core",
+    "jscad-electronics",
+    "cli",
+    "svg.tscircuit.com"
   ],
   "@tscircuit/checks-latest": [
     "circuit-to-svg"
