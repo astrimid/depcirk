@@ -478,6 +478,7 @@
     "bun-match-svg",
     "graphics-debug",
     "eval",
+    "circuit-json-to-gltf",
     "circuit-json-schematic-placement-analysis",
     "dataset-srj18",
     "check-shorts",
@@ -739,7 +740,8 @@
     "jscad-planner",
     "core",
     "jscad-electronics",
-    "jscad-fiber"
+    "jscad-fiber",
+    "eval"
   ],
   "@tscircuit/bga-fanout-solver": [
     "core",
@@ -803,11 +805,13 @@
   "@tscircuit/circuit-json-to-drawing": [
     "core",
     "jscad-electronics",
+    "eval",
     "cli",
     "svg.tscircuit.com"
   ],
   "@tscircuit/test-point-rerouter": [
-    "core"
+    "core",
+    "eval"
   ],
   "@tscircuit/checks-latest": [
     "circuit-to-svg"
