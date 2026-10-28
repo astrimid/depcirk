@@ -15,7 +15,6 @@
     "eval",
     "circuit-json-to-spice",
     "runframe",
-    "cli",
     "circuit-json-to-readable-netlist",
     "svg.tscircuit.com",
     "tscircuit-autorouter",
@@ -64,7 +63,8 @@
     "models.tscircuit.com",
     "am3352-sbc",
     "tscircuit-standalone",
-    "infer-sch-symbol"
+    "infer-sch-symbol",
+    "test-point-rerouter"
   ],
   "@tscircuit/internal-dynamic-import": [
     "schematic-viewer",
@@ -83,7 +83,6 @@
     "tscircuit.com",
     "eval",
     "runframe",
-    "cli",
     "assembly-viewer",
     "circuit-json-to-readable-netlist",
     "svg.tscircuit.com",
@@ -195,7 +194,6 @@
     "bun-ffi-benchmarking",
     "tscircuit.com",
     "eval",
-    "cli",
     "circuit-json-to-readable-netlist",
     "import",
     "docs",
@@ -236,7 +234,8 @@
     "trace-simplification-solver",
     "models.tscircuit.com",
     "tscircuit-standalone",
-    "infer-sch-symbol"
+    "infer-sch-symbol",
+    "test-point-rerouter"
   ],
   "@tscircuit/circuit-json-webgpu": [
     "pcb-viewer"
@@ -284,6 +283,7 @@
     "implicit-copper-pour-solver",
     "bga-fanout-solver",
     "dataset-fanout31-am62l",
+    "circuit-json-webgpu",
     "pcb-trace-linter",
     "simulate-return-current",
     "am3352-sbc",
@@ -385,7 +385,8 @@
     "bus-lanes-solver",
     "standard-jst-programmer",
     "am3352-sbc",
-    "tscircuit-standalone"
+    "tscircuit-standalone",
+    "test-point-rerouter"
   ],
   "@tscircuit/cli": [
     "tscircuit",
@@ -421,7 +422,6 @@
     "tscircuit.com",
     "prompt-benchmarks",
     "runframe",
-    "cli",
     "svg.tscircuit.com",
     "browser-preview.tscircuit.com",
     "tscircuit-prompts",
@@ -478,7 +478,6 @@
     "bun-match-svg",
     "graphics-debug",
     "eval",
-    "cli",
     "circuit-json-schematic-placement-analysis",
     "dataset-srj18",
     "check-shorts",
@@ -517,7 +516,6 @@
     "tscircuit",
     "core",
     "eval",
-    "cli",
     "tscircuit-autorouter",
     "dataset-srj18",
     "system-block-designer",
@@ -554,7 +552,6 @@
     "core",
     "jscad-electronics",
     "eval",
-    "cli",
     "svg.tscircuit.com",
     "models.tscircuit.com"
   ],
@@ -573,7 +570,6 @@
   "@tscircuit/runframe": [
     "tscircuit",
     "tscircuit.com",
-    "cli",
     "schematic-corpus-generator",
     "circuit-preview",
     "pycircuits",
@@ -585,7 +581,6 @@
     "tscircuit",
     "core",
     "eval",
-    "cli",
     "pycircuits",
     "circuit-json-schematic-placement-analysis",
     "dataset-srj18",
@@ -603,7 +598,6 @@
     "core",
     "eval",
     "runframe",
-    "cli",
     "tscircuit-autorouter",
     "calculate-cell-boundaries",
     "calculate-packing",
@@ -665,7 +659,8 @@
     "simulate-return-current",
     "return-current-trace-demo",
     "circuit-json-pcb-style-analysis",
-    "single-layer-grid-router"
+    "single-layer-grid-router",
+    "test-point-rerouter"
   ],
   "@tscircuit/footprints": [
     "a555timer",
@@ -810,6 +805,9 @@
     "jscad-electronics",
     "cli",
     "svg.tscircuit.com"
+  ],
+  "@tscircuit/test-point-rerouter": [
+    "core"
   ],
   "@tscircuit/checks-latest": [
     "circuit-to-svg"
@@ -1042,6 +1040,9 @@
   ],
   "@tscircuit/extract-srj-region": [
     "dataset-srj29-drc-corrections"
+  ],
+  "@tscircuit/circuit-json-util-reference": [
+    "circuit-json-webgpu"
   ],
   "@tscircuit/ibis-to-spice": [
     "pcb-spice-pipeline"
