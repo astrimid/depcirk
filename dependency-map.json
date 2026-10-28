@@ -10,6 +10,7 @@
     "core",
     "circuit-to-svg",
     "checks",
+    "circuit-json-to-gerber",
     "circuit-json-to-pnp-csv",
     "tscircuit.com",
     "eval",
