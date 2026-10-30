@@ -667,7 +667,8 @@
     "return-current-trace-demo",
     "circuit-json-pcb-style-analysis",
     "single-layer-grid-router",
-    "test-point-rerouter"
+    "test-point-rerouter",
+    "cad-collision-checking"
   ],
   "@tscircuit/footprints": [
     "a555timer",
