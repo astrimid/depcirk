@@ -183,7 +183,8 @@
     "jscad-to-manifold",
     "infer-sch-symbol",
     "circuit-json-to-drawing",
-    "jscad"
+    "jscad",
+    "graphics-debug-3d"
   ],
   "@tscircuit/math-utils": [
     "pcb-viewer",
@@ -1063,5 +1064,8 @@
   ],
   "@tscircuit/ibis-to-spice": [
     "pcb-spice-pipeline"
+  ],
+  "@tscircuit/graphics-debug-3d": [
+    "cad-collision-checking"
   ]
 }
