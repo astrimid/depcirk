@@ -111,7 +111,8 @@
     "am3352-sbc",
     "tscircuit-standalone",
     "infer-sch-symbol",
-    "pcb-spice-pipeline"
+    "pcb-spice-pipeline",
+    "tscircuitboy-advance"
   ],
   "@tscircuit/soup-util": [
     "schematic-viewer",
@@ -388,7 +389,8 @@
     "standard-jst-programmer",
     "am3352-sbc",
     "tscircuit-standalone",
-    "test-point-rerouter"
+    "test-point-rerouter",
+    "tscircuitboy-advance"
   ],
   "@tscircuit/cli": [
     "tscircuit",
@@ -433,7 +435,8 @@
     "dataset-srj20",
     "system-block-designer",
     "datasheet-to-tscircuit",
-    "tscircuit-standalone"
+    "tscircuit-standalone",
+    "tscircuitboy-advance"
   ],
   "@tscircuit/fanout-solver": [
     "tscircuit",
