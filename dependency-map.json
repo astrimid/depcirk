@@ -564,7 +564,8 @@
     "jscad-electronics",
     "eval",
     "svg.tscircuit.com",
-    "models.tscircuit.com"
+    "models.tscircuit.com",
+    "cad-collision-checking"
   ],
   "@tscircuit/ngspice-spice-engine": [
     "tscircuit",
