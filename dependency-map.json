@@ -199,6 +199,7 @@
     "tscircuit.com",
     "eval",
     "circuit-json-to-readable-netlist",
+    "circuit-json-to-tscircuit",
     "import",
     "docs",
     "tscircuit-autorouter",
