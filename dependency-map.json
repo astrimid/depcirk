@@ -534,6 +534,15 @@
     "dataset-srj24",
     "tscircuit-standalone"
   ],
+  "@tscircuit/manifold-2d": [
+    "tscircuit",
+    "core",
+    "eval",
+    "copper-pour-solver",
+    "circuit-json-to-lbrn",
+    "circuit-json-to-footprinter",
+    "cad-collision-checking"
+  ],
   "@tscircuit/matchpack": [
     "tscircuit",
     "core",
@@ -754,7 +763,17 @@
     "core",
     "jscad-electronics",
     "jscad-fiber",
+    "eval",
+    "cad-collision-checking"
+  ],
+  "@tscircuit/cad-collision-checking": [
+    "core",
     "eval"
+  ],
+  "@tscircuit/graphics-debug-3d": [
+    "core",
+    "eval",
+    "cad-collision-checking"
   ],
   "@tscircuit/bga-fanout-solver": [
     "core",
@@ -826,6 +845,10 @@
     "core",
     "eval"
   ],
+  "@tscircuit/jscad-to-manifold": [
+    "core",
+    "eval"
+  ],
   "@tscircuit/checks-latest": [
     "circuit-to-svg"
   ],
@@ -894,12 +917,6 @@
   ],
   "@tscircuit/import-snippet": [
     "eval"
-  ],
-  "@tscircuit/manifold-2d": [
-    "eval",
-    "copper-pour-solver",
-    "circuit-json-to-lbrn",
-    "circuit-json-to-footprinter"
   ],
   "@tscircuit/parts-engine": [
     "eval"
@@ -1066,8 +1083,5 @@
   ],
   "@tscircuit/ibis-to-spice": [
     "pcb-spice-pipeline"
-  ],
-  "@tscircuit/graphics-debug-3d": [
-    "cad-collision-checking"
   ]
 }
