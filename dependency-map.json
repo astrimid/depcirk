@@ -940,6 +940,9 @@
     "runframe",
     "cli"
   ],
+  "@tscircuit/system-block-viewer": [
+    "runframe"
+  ],
   "@tscircuit/check-shorts": [
     "cli"
   ],
