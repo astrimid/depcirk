@@ -823,7 +823,8 @@
     "implicit-copper-pour-solver",
     "schematic-parity-testing",
     "dataset-fanout31-am62l",
-    "pcb-trace-linter"
+    "pcb-trace-linter",
+    "tscircuit-standalone"
   ],
   "@tscircuit/via-stitch-solver": [
     "core",
@@ -909,6 +910,10 @@
   "@tscircuit/order-dialog": [
     "tscircuit.com"
   ],
+  "@tscircuit/system-block-viewer": [
+    "tscircuit.com",
+    "runframe"
+  ],
   "@tscircuit/featured-snippets": [
     "prompt-benchmarks"
   ],
@@ -939,9 +944,6 @@
   "@tscircuit/file-server": [
     "runframe",
     "cli"
-  ],
-  "@tscircuit/system-block-viewer": [
-    "runframe"
   ],
   "@tscircuit/check-shorts": [
     "cli"
