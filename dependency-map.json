@@ -749,6 +749,7 @@
   "@tscircuit/cableprinter": [
     "3d-viewer",
     "core",
+    "jscad-electronics",
     "eval",
     "circuit-json-to-gltf"
   ],
