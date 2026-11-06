@@ -814,6 +814,7 @@
   "@tscircuit/schematic-trace-solver": [
     "core",
     "eval",
+    "runframe",
     "cli",
     "pycircuits",
     "circuit-json-schematic-placement-analysis",
@@ -936,6 +937,9 @@
   ],
   "@tscircuit/fabricator-drc": [
     "eval"
+  ],
+  "@tscircuit/drawing-viewer": [
+    "runframe"
   ],
   "@tscircuit/fake-snippets": [
     "runframe",
