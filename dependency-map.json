@@ -853,6 +853,10 @@
     "core",
     "eval"
   ],
+  "@tscircuit/core-ddr-benchmark": [
+    "core",
+    "eval"
+  ],
   "@tscircuit/checks-latest": [
     "circuit-to-svg"
   ],
