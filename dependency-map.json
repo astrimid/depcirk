@@ -841,7 +841,8 @@
     "jscad-electronics",
     "eval",
     "cli",
-    "svg.tscircuit.com"
+    "svg.tscircuit.com",
+    "drawing-viewer"
   ],
   "@tscircuit/test-point-rerouter": [
     "core",
