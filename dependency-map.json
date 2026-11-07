@@ -111,7 +111,7 @@
     "am3352-sbc",
     "tscircuit-standalone",
     "infer-sch-symbol",
-    "pcb-spice-pipeline",
+    "signal-integrity-pipeline",
     "tscircuitboy-advance"
   ],
   "@tscircuit/soup-util": [
@@ -297,7 +297,7 @@
     "tscircuit-standalone",
     "infer-sch-symbol",
     "single-layer-grid-router",
-    "pcb-spice-pipeline"
+    "signal-integrity-pipeline"
   ],
   "@tscircuit/eagle-xml-converter": [
     "pcb-viewer"
@@ -457,6 +457,7 @@
     "3d-viewer",
     "core",
     "jscad-electronics",
+    "tscircuit.com",
     "prompt-benchmarks",
     "jlcsearch",
     "eval",
@@ -902,6 +903,10 @@
     "monaco-code-editor",
     "datasheet-to-tscircuit"
   ],
+  "@tscircuit/drawing-viewer": [
+    "tscircuit.com",
+    "runframe"
+  ],
   "@tscircuit/fake-stripe": [
     "tscircuit.com",
     "order-dialog"
@@ -941,9 +946,6 @@
   ],
   "@tscircuit/fabricator-drc": [
     "eval"
-  ],
-  "@tscircuit/drawing-viewer": [
-    "runframe"
   ],
   "@tscircuit/fake-snippets": [
     "runframe",
@@ -1097,6 +1099,6 @@
     "circuit-json-webgpu"
   ],
   "@tscircuit/ibis-to-spice": [
-    "pcb-spice-pipeline"
+    "signal-integrity-pipeline"
   ]
 }
