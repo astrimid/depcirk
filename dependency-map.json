@@ -392,7 +392,8 @@
     "am3352-sbc",
     "tscircuit-standalone",
     "test-point-rerouter",
-    "tscircuitboy-advance"
+    "tscircuitboy-advance",
+    "basic-usbc-devices"
   ],
   "@tscircuit/cli": [
     "tscircuit",
