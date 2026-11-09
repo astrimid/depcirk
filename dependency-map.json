@@ -184,7 +184,8 @@
     "infer-sch-symbol",
     "circuit-json-to-drawing",
     "jscad",
-    "graphics-debug-3d"
+    "graphics-debug-3d",
+    "basic-usbc-devices"
   ],
   "@tscircuit/math-utils": [
     "pcb-viewer",
@@ -498,7 +499,8 @@
     "dataset-srj24",
     "circuit-json-to-fdm-component-box",
     "generate-fpc-cable",
-    "am3352-sbc"
+    "am3352-sbc",
+    "basic-usbc-devices"
   ],
   "@tscircuit/infer-cable-insertion-point": [
     "tscircuit",
