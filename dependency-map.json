@@ -1098,6 +1098,9 @@
   "@tscircuit/extract-srj-region": [
     "dataset-srj29-drc-corrections"
   ],
+  "@tscircuit/am3352-fanout-generator": [
+    "bus-lanes-solver"
+  ],
   "@tscircuit/circuit-json-util-reference": [
     "circuit-json-webgpu"
   ],
