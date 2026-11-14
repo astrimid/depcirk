@@ -968,6 +968,9 @@
   "@tscircuit/circuit-json-routing-analysis": [
     "cli"
   ],
+  "@tscircuit/circuit-json-to-jlcpcb-quote": [
+    "cli"
+  ],
   "@tscircuit/pcb-spice-pipeline": [
     "cli"
   ],
