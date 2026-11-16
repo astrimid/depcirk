@@ -1065,6 +1065,9 @@
   "@tscircuit/trace-simplification-solver": [
     "tscircuit-autorouter"
   ],
+  "@tscircuit/props-for-sepic-repro": [
+    "tscircuit-autorouter"
+  ],
   "@tscircuit/high-density-a01": [
     "tscircuit-autorouter",
     "dataset-zero-obstacle-high-density-z01",
