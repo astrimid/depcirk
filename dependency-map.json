@@ -240,6 +240,7 @@
     "circuit-json-webgpu",
     "trace-simplification-solver",
     "models.tscircuit.com",
+    "simulate-return-current",
     "tscircuit-standalone",
     "infer-sch-symbol",
     "test-point-rerouter"
@@ -392,6 +393,7 @@
     "minimal-autorouter-rewrite-2026",
     "bus-lanes-solver",
     "standard-jst-programmer",
+    "simulate-return-current",
     "am3352-sbc",
     "tscircuit-standalone",
     "test-point-rerouter",
