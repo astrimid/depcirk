@@ -975,7 +975,7 @@
   "@tscircuit/circuit-json-to-jlcpcb-quote": [
     "cli"
   ],
-  "@tscircuit/pcb-spice-pipeline": [
+  "@tscircuit/signal-integrity-pipeline": [
     "cli"
   ],
   "@tscircuit/ti-parts-engine": [
