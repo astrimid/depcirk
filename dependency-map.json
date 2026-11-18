@@ -65,7 +65,8 @@
     "am3352-sbc",
     "tscircuit-standalone",
     "infer-sch-symbol",
-    "test-point-rerouter"
+    "test-point-rerouter",
+    "nema17-motor-controller"
   ],
   "@tscircuit/internal-dynamic-import": [
     "schematic-viewer",
@@ -112,7 +113,8 @@
     "tscircuit-standalone",
     "infer-sch-symbol",
     "signal-integrity-pipeline",
-    "tscircuitboy-advance"
+    "tscircuitboy-advance",
+    "nema17-motor-controller"
   ],
   "@tscircuit/soup-util": [
     "schematic-viewer",
@@ -365,7 +367,8 @@
     "preflight-routing-check-solver",
     "pcb-trace-linter",
     "dogbone-solver",
-    "am3352-sbc"
+    "am3352-sbc",
+    "nema17-motor-controller"
   ],
   "@tscircuit/checks": [
     "tscircuit",
@@ -589,6 +592,7 @@
     "tscircuit",
     "core",
     "eval",
+    "circuit-json-to-spice",
     "svg.tscircuit.com",
     "pycircuits",
     "circuit-json-schematic-placement-analysis",
@@ -759,7 +763,8 @@
     "core",
     "jscad-electronics",
     "eval",
-    "circuit-json-to-gltf"
+    "circuit-json-to-gltf",
+    "circuit-json-to-drawing"
   ],
   "@tscircuit/flex-utils": [
     "3d-viewer",
@@ -804,7 +809,8 @@
     "dataset-srj24",
     "rp2040-motor-controller",
     "rp2040-photo-diode-stick",
-    "rp2040-355nm-photodiode"
+    "rp2040-355nm-photodiode",
+    "nema17-motor-controller"
   ],
   "@tscircuit/dogbone-solver": [
     "core",
@@ -833,7 +839,8 @@
     "schematic-parity-testing",
     "dataset-fanout31-am62l",
     "pcb-trace-linter",
-    "tscircuit-standalone"
+    "tscircuit-standalone",
+    "nema17-motor-controller"
   ],
   "@tscircuit/via-stitch-solver": [
     "core",
