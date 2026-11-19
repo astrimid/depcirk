@@ -232,6 +232,7 @@
     "length-matching-solver",
     "circuit-json-to-footprinter",
     "dataset-srj24",
+    "fanout-solver",
     "altium-to-circuit-json",
     "route-styler",
     "implicit-copper-pour-solver",
