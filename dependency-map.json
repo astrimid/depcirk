@@ -65,6 +65,7 @@
     "am3352-sbc",
     "tscircuit-standalone",
     "infer-sch-symbol",
+    "signal-integrity-pipeline",
     "test-point-rerouter",
     "nema17-motor-controller"
   ],
