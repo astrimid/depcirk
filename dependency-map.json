@@ -696,6 +696,7 @@
     "return-current-trace-demo",
     "circuit-json-pcb-style-analysis",
     "single-layer-grid-router",
+    "high-density-phase-solver",
     "test-point-rerouter",
     "cad-collision-checking"
   ],
@@ -1077,6 +1078,9 @@
     "tscircuit-autorouter"
   ],
   "@tscircuit/props-for-sepic-repro": [
+    "tscircuit-autorouter"
+  ],
+  "@tscircuit/high-density-phase-solver": [
     "tscircuit-autorouter"
   ],
   "@tscircuit/high-density-a01": [
