@@ -67,7 +67,8 @@
     "infer-sch-symbol",
     "signal-integrity-pipeline",
     "test-point-rerouter",
-    "nema17-motor-controller"
+    "nema17-motor-controller",
+    "circuit-json-to-differential-pair-phase-skew"
   ],
   "@tscircuit/internal-dynamic-import": [
     "schematic-viewer",
@@ -304,7 +305,8 @@
     "tscircuit-standalone",
     "infer-sch-symbol",
     "single-layer-grid-router",
-    "signal-integrity-pipeline"
+    "signal-integrity-pipeline",
+    "circuit-json-to-differential-pair-phase-skew"
   ],
   "@tscircuit/eagle-xml-converter": [
     "pcb-viewer"
@@ -403,7 +405,8 @@
     "tscircuit-standalone",
     "test-point-rerouter",
     "tscircuitboy-advance",
-    "basic-usbc-devices"
+    "basic-usbc-devices",
+    "circuit-json-to-differential-pair-phase-skew"
   ],
   "@tscircuit/cli": [
     "tscircuit",
