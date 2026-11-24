@@ -69,7 +69,7 @@
     "test-point-rerouter",
     "basic-usbc-devices",
     "nema17-motor-controller",
-    "circuit-json-to-differential-pair-phase-skew"
+    "compute-differential-pair-phase-skew"
   ],
   "@tscircuit/internal-dynamic-import": [
     "schematic-viewer",
@@ -307,7 +307,7 @@
     "infer-sch-symbol",
     "single-layer-grid-router",
     "signal-integrity-pipeline",
-    "circuit-json-to-differential-pair-phase-skew"
+    "compute-differential-pair-phase-skew"
   ],
   "@tscircuit/eagle-xml-converter": [
     "pcb-viewer"
@@ -407,7 +407,7 @@
     "test-point-rerouter",
     "tscircuitboy-advance",
     "basic-usbc-devices",
-    "circuit-json-to-differential-pair-phase-skew"
+    "compute-differential-pair-phase-skew"
   ],
   "@tscircuit/cli": [
     "tscircuit",
@@ -700,7 +700,7 @@
     "return-current-trace-demo",
     "circuit-json-pcb-style-analysis",
     "single-layer-grid-router",
-    "high-density-phase-solver",
+    "bga-escape-routing-solver",
     "test-point-rerouter",
     "cad-collision-checking"
   ],
