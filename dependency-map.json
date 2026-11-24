@@ -67,6 +67,7 @@
     "infer-sch-symbol",
     "signal-integrity-pipeline",
     "test-point-rerouter",
+    "basic-usbc-devices",
     "nema17-motor-controller",
     "circuit-json-to-differential-pair-phase-skew"
   ],
