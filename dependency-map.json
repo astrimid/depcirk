@@ -1084,7 +1084,7 @@
   "@tscircuit/props-for-sepic-repro": [
     "tscircuit-autorouter"
   ],
-  "@tscircuit/high-density-phase-solver": [
+  "@tscircuit/bga-escape-routing-solver": [
     "tscircuit-autorouter"
   ],
   "@tscircuit/high-density-a01": [
