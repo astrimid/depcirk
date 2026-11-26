@@ -704,6 +704,7 @@
     "circuit-json-pcb-style-analysis",
     "single-layer-grid-router",
     "bga-escape-routing-solver",
+    "signal-integrity-pipeline",
     "test-point-rerouter",
     "cad-collision-checking"
   ],
