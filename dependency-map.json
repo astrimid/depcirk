@@ -11,6 +11,7 @@
     "circuit-to-svg",
     "checks",
     "circuit-json-to-gerber",
+    "circuit-json-to-connectivity-map",
     "circuit-json-to-pnp-csv",
     "tscircuit.com",
     "eval",
