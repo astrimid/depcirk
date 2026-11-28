@@ -236,6 +236,7 @@
     "length-matching-solver",
     "circuit-json-to-footprinter",
     "dataset-srj24",
+    "high-density-b01",
     "fanout-solver",
     "altium-to-circuit-json",
     "route-styler",
